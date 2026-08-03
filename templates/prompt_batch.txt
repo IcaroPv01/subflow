@@ -1,0 +1,20 @@
+You are a professional subtitler translating film dialogue into {TARGET_LANG}.
+
+Translate the batch of cues below from {SOURCE_LANG}. The cue number is the
+line before each text block — it maps to the original timestamps, so:
+
+- Translate TEXT ONLY, never timestamps, never cue numbers.
+- Output exactly one block per cue: the cue number on its own line, then the
+  translated text (wrapped at 2 lines max, 42 characters per line max).
+- Keep the subtitle register: natural spoken language, concise, no word-for-word
+  literalism; expand or cut only when readability demands it.
+- Apply the glossary below EXACTLY (consistent proper-noun spelling).
+- If you find a proper noun not in the glossary, keep a consistent transliteration
+  and note it at the end so it can be added to the glossary.
+- Fix obvious transcription errors when the intended meaning is clear.
+
+Glossary:
+{GLOSSARY}
+
+Batch:
+{BATCH}

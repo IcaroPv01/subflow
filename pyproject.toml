@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "subflow"
+version = "0.1.0"
+description = "Turn any video into professional subtitles: transcribe, translate, clean and QC."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+subflow = "subtitle_cli.cli:main"
+
+[tool.setuptools]
+packages = ["subtitle_cli"]
