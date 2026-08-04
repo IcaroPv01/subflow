@@ -37,6 +37,7 @@ subflow langcheck audio/audio.m4a --srt transcription/audio.srt --expected fr
 - Python ≥ 3.10 (standard library only)
 - One of: **Faster-Whisper-XXL standalone binary** (Windows, GPU optional) or
   `pip install faster-whisper`
+- Offline models: pass `--model-dir` to keep Whisper fully local (no downloads)
 - `yt-dlp` + `ffmpeg` for URL downloads (local files skip this)
 
 ## How translation works
