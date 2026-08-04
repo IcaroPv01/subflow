@@ -21,6 +21,9 @@ per-video API cost.
 
 ## Quickstart
 
+**Download:** grab the latest wheel/zip (no build needed) from
+[Releases](https://github.com/IcaroPv01/subflow/releases) — or build from source:
+
 ```bash
 pip install .                # from the skill/ folder; provides `subflow`
 subflow init --name my-film  # create the project layout
