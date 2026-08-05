@@ -1,5 +1,8 @@
 # SubFlow
 
+[![Buy on Hotmart](https://img.shields.io/badge/Buy-Hotmart-orange)](https://pay.hotmart.com/E107014071J)
+
+
 **Turn any video into professional subtitles.** From a URL or a local file, SubFlow
 transcribes, translates (LLM-assisted), cleans and quality-checks subtitles — and
 verifies that the transcription isn't hallucinating a language. Runs locally, no
