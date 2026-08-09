@@ -79,6 +79,9 @@ real case study (104-min film in 7h50). Free PDF (~20 KB):
 
 **[Download the free guide (PDF, PT-BR)](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf)**
 | [Landing page (PT-BR)](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/landing/guia-gratuito.html)
+| [Landing page (EN)](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/landing/index.html)
+| [Watch the GIF demo](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/assets/demo.gif)
+| [Compare with alternatives](https://github.com/IcaroPv01/subflow/blob/main/vendas/comparativo.md)
 
 ## License
 
