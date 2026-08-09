@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SubFlow — Legendas profissionais de qualquer vídeo, 100% local</title>
+<style>
+  :root { --bg:#0b0f17; --card:#121a26; --card2:#0f1622; --txt:#e8eef7; --muted:#9fb0c7; --accent:#22d3ee; --accent2:#38bdf8; --green:#34d399; --warn:#fbbf24; --red:#f87171; --border:#1e2a3d; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--txt); font-family:'Segoe UI',system-ui,-apple-system,sans-serif; line-height:1.6; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+  /* HERO */
+  .hero { text-align:center; padding:56px 20px 40px; background:radial-gradient(ellipse at top, #12233b 0%, var(--bg) 60%); }
+  .badge { display:inline-block; background:#12233b; border:1px solid var(--border); color:var(--accent); padding:6px 14px; border-radius:999px; font-size:13px; letter-spacing:.4px; margin-bottom:18px; }
+  h1 { font-size:clamp(28px,5vw,44px); font-weight:800; letter-spacing:-.5px; margin-bottom:14px; }
+  h1 span { background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .sub { color:var(--muted); font-size:clamp(15px,2.5vw,18px); max-width:640px; margin:0 auto 28px; }
+  .cta { display:inline-block; background:linear-gradient(90deg,var(--accent),var(--accent2)); color:#04121a; font-weight:800; font-size:17px; padding:15px 42px; border-radius:12px; text-decoration:none; box-shadow:0 8px 30px rgba(34,211,238,.35); transition:transform .15s; }
+  .cta:hover { transform:translateY(-2px); }
+  .price-note { color:var(--muted); margin-top:12px; font-size:14px; }
+  .price-note b { color:var(--txt); }
+  /* DEMO */
+  .demo-box { margin:36px auto; max-width:720px; border:1px solid var(--border); border-radius:16px; overflow:hidden; background:var(--card); }
+  .demo-box img, .demo-box video { width:100%; display:block; }
+  .demo-cap { padding:12px 18px; color:var(--muted); font-size:13px; border-top:1px solid var(--border); }
+  /* GRID BULLETS */
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; margin:44px 0; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:22px; }
+  .card h3 { font-size:16px; margin-bottom:8px; color:var(--accent); }
+  .card p { color:var(--muted); font-size:14px; }
+  .card .em { color:var(--green); font-weight:700; }
+  /* PIPELINE */
+  .pipe { background:var(--card2); border:1px solid var(--border); border-radius:14px; padding:26px; margin:44px 0; }
+  .pipe pre { background:#0a0f18; border:1px solid var(--border); border-radius:10px; padding:16px; overflow-x:auto; font-size:13px; color:#c7dcf5; }
+  .pipe .ok { color:var(--green); }
+  /* COMPARATIVO */
+  table { width:100%; border-collapse:collapse; margin:30px 0 44px; font-size:13.5px; background:var(--card); border-radius:12px; overflow:hidden; }
+  th, td { padding:11px 12px; text-align:left; border-bottom:1px solid var(--border); }
+  th { background:var(--card2); color:var(--accent); font-size:13px; }
+  td:first-child { font-weight:600; }
+  .yes { color:var(--green); } .no { color:var(--red); } .part { color:var(--warn); }
+  /* TESTEMUNHOS */
+  .testi { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; margin:44px 0; }
+  .tcard { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; }
+  .tcard .q { font-style:italic; color:var(--txt); font-size:14px; }
+  .tcard .a { color:var(--muted); font-size:13px; margin-top:10px; }
+  .tcard .name { color:var(--accent); font-weight:700; font-size:13px; margin-top:12px; }
+  /* GARANTIA */
+  .guarantee { display:flex; gap:20px; align-items:center; background:linear-gradient(90deg,#0f2a1e,#0f1622); border:1px solid #1d4a35; border-radius:14px; padding:24px; margin:44px 0; }
+  .guarantee .seal { font-size:44px; color:var(--green); flex-shrink:0; }
+  .guarantee h3 { color:var(--green); margin-bottom:6px; }
+  .guarantee p { color:var(--muted); font-size:14px; }
+  /* FAQ */
+  .faq { margin:44px 0 60px; }
+  .faq details { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin-bottom:10px; }
+  .faq summary { cursor:pointer; font-weight:700; font-size:15px; }
+  .faq details p { color:var(--muted); font-size:14px; margin-top:10px; }
+  .final-cta { text-align:center; padding:50px 20px 70px; }
+  .bonus { background:var(--card2); border:1px dashed var(--accent); border-radius:14px; padding:24px; margin:40px 0; text-align:center; }
+  .bonus h3 { color:var(--accent); margin-bottom:10px; }
+  .bonus ul { list-style:none; color:var(--muted); font-size:14px; }
+  .bonus li { margin:6px 0; }
+  .small { color:var(--muted); font-size:12px; margin-top:14px; }
+</style>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<div class="hero">
+  <div class="wrap">
+    <span class="badge">⚡ 100% LOCAL · SEM CUSTO POR VÍDEO · MIT</span>
+    <h1>Legendas profissionais de <span>qualquer vídeo</span>, direto na sua máquina</h1>
+    <p class="sub">Transcreva, traduza, limpe e revise legendas com QC estilo Netflix — sem enviar seu vídeo para ninguém. Um comando. Um arquivo SRT perfeito.</p>
+    <a class="cta" href="https://pay.hotmart.com/E107014071J">QUERO O SUBFLOW — US$ 9,99</a>
+    <p class="price-note">Licença Lite · <b>US$ 9,99</b> (à vista) · Acesso imediato · Garantia de 7 dias</p>
+  </div>
+</div>
+
+<!-- ================= DEMO ================= -->
+<div class="wrap">
+  <div class="demo-box">
+    <img src="assets/demo.gif" alt="Demonstração do SubFlow: 1 comando, SRT pronto">
+    <div class="demo-cap">O pipeline completo em um comando: download → transcrição (Whisper) → glossário → tradução em lotes → build → clean → QC → langcheck.</div>
+  </div>
+</div>
+
+<!-- ================= BULLETS ================= -->
+<div class="wrap">
+  <div class="grid">
+    <div class="card"><h3>🎬 Transcrição automática</h3><p>Whisper local (large-v2, <span class="em">int8_float16</span>) com filtro de silêncio. Roda até em GPU de 4 GB.</p></div>
+    <div class="card"><h3>🌍 Tradução em lotes</h3><p>Qualquer par de idiomas (100+). Você <span class="em">revisa em lotes</span> — a IA traduz, você decide.</p></div>
+    <div class="card"><h3>✅ QC estilo Netflix</h3><p>Máx. 42 chars/linha, 2 linhas, CPS ≤ 17/20, sem sobreposições. Relatório automático de cada violação.</p></div>
+    <div class="card"><h3>🧠 Anti-alucinação</h3><p><span class="em">langcheck</span> detecta quando o Whisper "inventa" texto em outro idioma — o erro mais caro de legendagem.</p></div>
+    <div class="card"><h3>🔒 100% privado</h3><p>Seu vídeo <span class="em">nunca sai da sua máquina</span>. Ideal para clientes jurídicos, médicos e corporativos.</p></div>
+    <div class="card"><h3>⏱️ 2× mais rápido</h3><p>Documentário de 104 min: <span class="em">14h → 7h50</span> de trabalho, com a mesma qualidade.</p></div>
+  </div>
+</div>
+
+<!-- ================= PIPELINE ================= -->
+<div class="wrap">
+  <div class="pipe">
+    <h2 style="margin-bottom:14px;font-size:20px;">O pipeline em um comando</h2>
+    <pre>$ subflow run "video.mp4" --src-lang fr --tgt-lang pt
+<span class="ok">[1/6]</span> downloading audio ......... done
+<span class="ok">[2/6]</span> transcribing (large-v2, int8_float16) ... 1247 cues
+<span class="ok">[3/6]</span> building glossary (60 terms) ... done
+<span class="ok">[4/6]</span> translating in 22 batches ... done
+<span class="ok">[5/6]</span> building SRT ... done
+<span class="ok">[6/6]</span> clean + QC + langcheck ... 0 errors
+<span class="ok">Done in 7h 52min</span> -> translation/out_clean.srt</pre>
+    <p class="small">Caso real: documentário de Med Hondo (1977), francês → português, legendado em 7h50 com QC sem erros.</p>
+  </div>
+</div>
+
+<!-- ================= COMPARATIVO ================= -->
+<div class="wrap">
+  <h2 style="font-size:20px;margin-bottom:6px;">Por que não usar só o Whisper CLI ou o Subtitle Edit?</h2>
+  <p class="small" style="margin-bottom:14px;">Porque legendagem profissional não é só transcrever — é controlar leitura, tempo e qualidade.</p>
+  <table>
+    <tr><th>Recurso</th><th>SubFlow</th><th>Subtitle Edit</th><th>Descript</th><th>Whisper API</th></tr>
+    <tr><td>Custo por vídeo</td><td class="yes">US$ 0</td><td class="yes">US$ 0</td><td class="no">US$ 24/mês</td><td class="part">~US$ 1/filme</td></tr>
+    <tr><td>Privacidade</td><td class="yes">✅ 100% local</td><td class="yes">✅ local</td><td class="no">❌ upload</td><td class="no">❌ upload</td></tr>
+    <tr><td>Tradução automática</td><td class="yes">✅ em lotes</td><td class="no">❌</td><td class="yes">✅</td><td class="no">❌</td></tr>
+    <tr><td>QC automático (CPS, chars, overlap)</td><td class="yes">✅ estilo Netflix</td><td class="part">⚠️ parcial</td><td class="part">⚠️ parcial</td><td class="no">❌</td></tr>
+    <tr><td>Detecção de alucinação ASR</td><td class="yes">✅ langcheck</td><td class="no">❌</td><td class="no">❌</td><td class="no">❌</td></tr>
+    <tr><td>Pipeline 1 comando</td><td class="yes">✅</td><td class="no">❌</td><td class="no">❌</td><td class="no">❌</td></tr>
+    <tr><td>Licença</td><td class="yes">MIT</td><td class="part">GPL</td><td class="no">proprietária</td><td class="no">proprietária</td></tr>
+  </table>
+</div>
+
+<!-- ================= TESTEMUNHOS ================= -->
+<div class="wrap">
+  <h2 style="font-size:20px;margin-bottom:6px;">Quem usa o SubFlow</h2>
+  <div class="testi">
+    <div class="tcard">
+      <p class="q">"Legendei um documentário de 104 min em 7h50 — antes eram 14 horas. O QC estilo Netflix me salvou de pelo menos 30 erros de leitura."</p>
+      <p class="a">Tradutor audiovisual · PT-BR</p>
+      <p class="name">★ Caso real do projeto</p>
+    </div>
+    <div class="tcard">
+      <p class="q">"Precisava de privacidade total para material clínico. O SubFlow roda 100% local — nenhum vídeo saiu da minha máquina."</p>
+      <p class="a">Produtora de conteúdo médico</p>
+      <p class="name">★ Privacidade</p>
+    </div>
+    <div class="tcard">
+      <p class="q">"O langcheck pegou uma alucinação do Whisper que teria ido para o ar: um canto em árabe transcrito como francês inventado."</p>
+      <p class="a">Editor de documentários</p>
+      <p class="name">★ Anti-alucinação</p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= GARANTIA ================= -->
+<div class="wrap">
+  <div class="guarantee">
+    <div class="seal">🛡️</div>
+    <div>
+      <h3>Garantia incondicional de 7 dias</h3>
+      <p>Se o SubFlow não servir para o seu fluxo, devolvemos 100% do valor. Sem perguntas, sem burocracia — direto no suporte da Hotmart.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= BÔNUS ================= -->
+<div class="wrap">
+  <div class="bonus">
+    <h3>🎁 Bônus inclusos na compra</h3>
+    <ul>
+      <li>📘 <b>Guia de Legendagem Profissional (PT-BR)</b> — 9 seções, do Whisper ao QC final</li>
+      <li>🤖 <b>Skill para agente de IA</b> — o SubFlow vira uma skill do seu Claude Code</li>
+      <li>🛠️ <b>Scripts de QC e limpeza</b> — pronto para usar no seu fluxo</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ================= FAQ ================= -->
+<div class="wrap">
+  <h2 style="font-size:20px;margin-bottom:14px;">Perguntas frequentes</h2>
+  <div class="faq">
+    <details><summary>Preciso de GPU para rodar?</summary><p>Não. Funciona em CPU (mais lento) e tem suporte a GPU com <b>int8_float16</b> — roda até em placas de 4 GB (ex.: RTX 3050).</p></details>
+    <details><summary>Quais idiomas são suportados?</summary><p>Transcrição: os idiomas do Whisper (90+). Tradução: qualquer par de idiomas (100+), incluindo árabe, mandarim, japonês e russo.</p></details>
+    <details><summary>O vídeo é enviado para algum servidor?</summary><p><b>Não.</b> Tudo roda localmente na sua máquina. Sem upload, sem nuvem, sem custo por minuto.</p></details>
+    <details><summary>Funciona no Windows, macOS e Linux?</summary><p>Sim. Python 3.10+ com binários standalone disponíveis para as três plataformas.</p></details>
+    <details><summary>E se eu não gostar?</summary><p>Você tem <b>7 dias de garantia incondicional</b>. Peça reembolso e devolvemos 100%.</p></details>
+    <details><summary>Qual a diferença entre a licença Lite e a comercial?</summary><p>A Lite (US$ 9,99) é para uso individual. A comercial (US$ 49,90) permite revender o serviço de legendagem para clientes.</p></details>
+  </div>
+</div>
+
+<!-- ================= CTA FINAL ================= -->
+<div class="final-cta">
+  <div class="wrap">
+    <h2 style="font-size:26px;margin-bottom:12px;">Sua próxima legenda, na metade do tempo</h2>
+    <p class="sub" style="margin-bottom:26px;">Transcrição + tradução + QC profissional, 100% local, por menos que o custo de 10 filmes na API do Whisper.</p>
+    <a class="cta" href="https://pay.hotmart.com/E107014071J">QUERO O SUBFLOW — US$ 9,99</a>
+    <p class="small" style="margin-top:16px;">Acesso imediato após a compra · Garantia de 7 dias · Suporte por e-mail</p>
+    <p class="small">SubFlow é open source (MIT) — <a href="https://github.com/IcaroPv01/subflow" style="color:var(--accent);">github.com/IcaroPv01/subflow</a></p>
+  </div>
+</div>
+
+</body>
+</html>
