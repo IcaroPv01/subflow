@@ -98,3 +98,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Etapa 2/4 COMPLETA** — validação passou (o clique em "Next: Enable Payouts" avançou): skill name=subflow, trigger, SKILL.md body (pipeline completo), tools, 2 exemplos, modelo **claude-5-sonnet**, setup instructions.
 - [x] **Etapa 3/4 (Payout)**: método **Instant USDC** selecionado, país **Brazil** (BR) setado, botão "Enable Payouts" clicado.
 - [ ] **BLOCKER HUMANO DO DONO**: o fluxo abriu verificação de identidade (Zoneless/USDC) pedindo: legal name, email, date of birth, home address. **Ação do dono:** preencher os dados pessoais no navegador (aba PromptBase) e completar. Depois: etapa 4/4 (review) + publicar.
+
+### 2026-08-09 — PromptBase re-executado (sessão 2, 2ª tentativa pós-restart)
+- [x] **Etapa 1/4 + 2/4 REFEITAS e validadas** (o restart resetou o SPA): Agent Skill + Claude Skill + $8.99 + nome subflow + descrição + SKILL.md body completo (frontmatter name/description/allowed-tools + corpo) + 2 exemplos + setup.
+- [x] **Etapa 3/4**: Instant USDC + Brazil (BR) + "Enable Payouts" clicado → fluxo **Zoneless (verificação de identidade) aberto**.
+- [ ] **BLOCKER HUMANO (dono):** preencher no Zoneless: legal name, email, date of birth, home address (país Brazil). Depois: voltar ao PromptBase → etapa 4/4 (review) → publicar.
