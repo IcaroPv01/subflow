@@ -75,3 +75,7 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Página v2 criada** — `vendas/hotmart-page-v2.html` (hero + demo.gif, bullets, pipeline 1 comando, comparativo, testemunhos, garantia 7 dias, bônus, FAQ, CTA checkout). Commit 4c4d69a.
 - [ ] **Editar via UI** — BLOQUEADO: editor do Hotmart Pages não abre no browser embutido do Orca (cliques JS e reais falham; runtime instável; iframe app-vlc cross-origin). **Ação do supervisor:** subir `vendas/hotmart-page-v2.html` manualmente no Hotmart Pages (Editar → HTML) e publicar.
 - [x] Hotmart logado como Icaro Venzon; produto ativo (US$ 9,99; links go/pay E107014071J).
+
+### 2026-08-09 — PromptBase em progresso (sessão 2)
+- [ ] **PromptBase** — formulário de criação em andamento (etapa 2/4 "Skill File"): item type=Agent Skill, runtime=Claude Skill, preço=$8.99, nome=subflow, trigger preenchido, SKILL.md body + tools preenchidos. **Faltam:** etapa 3/4 (exemplos) e 4/4 (publicar).
+- [ ] Runtime do Orca instável (cai repetidamente após ~2min de uso intenso) — retomar quando estabilizar.
