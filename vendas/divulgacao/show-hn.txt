@@ -1,0 +1,25 @@
+Show HN: SubFlow — 100% local subtitle pipeline with Whisper + QC
+
+Title: Show HN: SubFlow — 100% local Whisper subtitle pipeline (transcribe+translate+QC)
+
+Body (HN format, 2-3 paragraphs):
+
+I built a CLI + Claude Code skill that turns any video (URL or file) into clean, translated subtitles — fully offline, no per-minute API cost.
+
+Pipeline: download → transcribe (Whisper, local) → glossary → batch translate → build → clean → QC → langcheck.
+
+What's unique:
+
+1. Netflix-style QC is built in: ≤42 chars/line, CPS 17/20, no overlaps, ≥1s duration. The `qc` subcommand generates a report with every violation.
+
+2. `langcheck` re-decodes each cue and compares detected vs expected language. Catches ASR hallucination (a forced-French pass once "invented" French over Hassaniya Arabic song lyrics).
+
+3. Translation stays text-only — batches of 30 cues are plain text files you translate, then the CLI rebuilds the SRT preserving timing. Zero risk of desync.
+
+I use it for documentary translation (PT-BR). A 104-min film that took ~14h manually now takes ~7h50 — same quality.
+
+It's MIT-licensed Python (stdlib only, plus faster-whisper or the standalone binary). Repo: github.com/IcaroPv01/subflow
+
+There's a free 9-section PT-BR guide on professional subtitling if you want the workflow: raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf
+
+Curious what HN thinks. Feedback on QC defaults, translation batch size, and the langcheck heuristic especially welcome.
