@@ -64,3 +64,9 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **PromptBase (verificação b):** listagem "subflow" NAO publicada — busca pública 0 hits; /sell mostra formulário de criação (dropdowns: item type inclui "Agent Skill", generation Text/Images/Videos, preço), mas preenchido com outro prompt ("Vibrant Startup Logos"). Criar listagem nova quando possível.
 - [x] **IndieHackers (verificação c):** BLOQUEADO por desafio Cloudflare (indiehackers.com/sign-up) após 2 tentativas + reload. Tentar novamente em outra janela/sessão.
 - [x] **r/whisper (verificação d):** post do SubFlow NAO localizado — busca global "subflow", "IcaroPv01" e feed r/whisper sem resultados (sub é do app social Whisper, não do ASR). Username Reddit não confirmado.
+
+### 2026-08-09 — YouTube publicado (sessão 2)
+- [x] **YouTube demo PUBLICADO** — "Subtitle a whole film in under 8 hours (Whisper, local, free)", 1:31, visibilidade Público.
+      Link: https://www.youtube.com/watch?v=8wywC_Evx9E
+      (Título ajustado pelo dono: "under 8 hours" — o filme leva ~7h50, menos de 8h.)
+- [x] Descrição com links: repo, PDF gratuito, checkout Hotmart.
