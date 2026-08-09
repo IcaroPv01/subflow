@@ -112,3 +112,11 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **r/whisper 1vfs2ug**: post existe (autor Objective_Wrap2408) mas **REMOVIDO** ("Desculpe, este post foi removido") — sem o que comentar.
 - [x] **r/SideProject 1vfvdl9**: post existe mas **REMOVIDO pelos filtros do Reddit** — sem o que comentar.
 - [ ] **Ação:** quando houver sessão Reddit, re-postar (ou contatar mods) com link do vídeo + checkout. Textos prontos em vendas/textos-prontos.md.
+
+### 2026-08-09 ~14:35 — Tarefas sem login concluídas
+- [x] **README**: seção Resources com link do YouTube (verificado via gh api — já estava, commit c0e5d1e).
+- [x] **Discussion #1**: corpo com link+embed do vídeo + 2 comentários com vídeo (verificado via GraphQL — já estava).
+- [x] **vendas/textos-prontos.md**: criado na raiz vendas/ (todos os textos com link do vídeo para Show HN, Dev.to, Hashnode, BetaList, PH, HF, Discord, Reddit, diretórios SEO).
+- [x] **vendas/CHECKLIST-DONO.md**: criado — 13 itens humanos pendentes (Zoneless, Hotmart re-login, página v2, webhook, sessões técnicas, IndieHackers, r/selfhosted, Sponsors, GoTranscript, Reddit login; Twitter/LinkedIn/FB/IG proibidos).
+- [x] **Reddit**: posts 1vfs2ug e 1vfvdl9 REMOVIDOS pelos filtros — re-post pendente com sessão.
+- [ ] **Show HN + Dev.to**: aguardando sessão (HN e Dev.to deslogados).
