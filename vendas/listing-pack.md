@@ -107,3 +107,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 ### 2026-08-09 ~14:20 — PromptBase no ponto máximo (3ª execução, com técnica de espera 3s)
 - [x] **Técnica descoberta:** o React do PromptBase precisa de ~3s entre preencher e clicar Next (registra os valores antes da validação). Fluxo: etapa 1/4 (Agent Skill+Text+$8.99+SubFlow+desc) → Skill Details (Agent Skill+Claude Skill+$8.99+subflow+desc) → Skill File (9 campos: name, when-to-use, SKILL.md body, tools, 2 exemplos, setup) → Payout (USDC+Brazil) → Enable Payouts → **Zoneless aberto**.
 - [ ] **BLOCKER HUMANO (dono):** Zoneless pede legal name, email, date of birth, home address (dropdown de países aberto). Preencher → volta ao PromptBase → etapa 4/4 (review) → publicar.
+
+### 2026-08-09 ~14:30 — Reddit posts verificados
+- [x] **r/whisper 1vfs2ug**: post existe (autor Objective_Wrap2408) mas **REMOVIDO** ("Desculpe, este post foi removido") — sem o que comentar.
+- [x] **r/SideProject 1vfvdl9**: post existe mas **REMOVIDO pelos filtros do Reddit** — sem o que comentar.
+- [ ] **Ação:** quando houver sessão Reddit, re-postar (ou contatar mods) com link do vídeo + checkout. Textos prontos em vendas/textos-prontos.md.
