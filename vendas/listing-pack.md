@@ -61,6 +61,6 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 3. Confirmar o username real do Reddit e o post do r/whisper.
 ### 2026-08-09 — Sessão 2 (supervisor, restrições dono: sem redes sociais pessoais)
 - [x] **Hotmart vendas (verificação a):** página de Vendas (app.hotmart.com/sales) **SEM vendas** — tabela vazia, 0 registros. Produto SubFlow ativo (pagina manage 8248938 OK, logado como Icaro Venzon).
-- [ ] PromptBase (verificação b)
+- [x] **PromptBase (verificação b):** listagem "subflow" NAO publicada — busca pública 0 hits; /sell mostra formulário de criação (dropdowns: item type inclui "Agent Skill", generation Text/Images/Videos, preço), mas preenchido com outro prompt ("Vibrant Startup Logos"). Criar listagem nova quando possível.
 - [ ] IndieHackers (verificação c)
 - [ ] r/whisper (verificação d)
