@@ -1,0 +1,67 @@
+SubFlow launch thread (7 tweets, EN)
+
+Tweet 1/7
+I built a 100% local subtitle pipeline for translators.
+
+CLI + Claude Code skill.
+Whisper on your machine. No per-minute API cost.
+
+`subflow run "https://youtu.be/..." --src-lang fr --tgt-lang pt`
+
+-> clean, QC'd SRT in minutes.
+
+[attach: 10s GIF of terminal]
+
+Tweet 2/7
+The boring part of subtitle work used to take 6x the video length.
+
+Transcription + sync + clean + QC + language check.
+
+I automated 95% of it. You do the final human pass.
+
+Time: 6x -> 1.3x.
+
+Tweet 3/7
+Netflix-style QC is built in.
+
+<=42 chars/line
+<=2 lines/cue
+CPS 17/20
+>=1s duration
+No overlaps
+
+`subflow qc --profile netflix` -> report.txt
+
+Tweet 4/7
+The killer feature: langcheck.
+
+Whisper hallucinates languages on hard audio (Arabic, Mandarin, Japanese).
+
+`langcheck` re-decodes each cue, compares detected vs expected language, flags hallucinations.
+
+Caught a forced-French pass "inventing" French over Hassaniya Arabic.
+
+Tweet 5/7
+Translation stays text-only.
+
+Batches of 30 cues -> plain text files.
+
+You translate the text, the CLI rebuilds the SRT preserving timing.
+
+Zero risk of desync. 3x faster than cue-by-cue.
+
+Tweet 6/7
+Free PT-BR guide (9 sections, 15-min read):
+
+PDF: raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf
+
+Cases: a 104-min film done in 7h50.
+
+Tweet 7/7
+MIT licensed. Python 3.10+, stdlib only.
+
+Repo: github.com/IcaroPv01/subflow
+
+If you translate videos professionally, try it on your next gig.
+
+RT if useful.
