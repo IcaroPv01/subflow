@@ -42,7 +42,13 @@ Atualizado por: instância deepseek-v4-flash (execução via CLI + orca browser)
 
 #### Promoção cruzada
 - [ ] Comentário próprio com checkout em cada post
-- [ ] Discussion #1: link PDF gratuito + Show HN
+- [x] **Discussion #1** — atualizada via gh CLI (comentário #discussioncomment-17954844): link do PDF gratuito adicionado; Show HN pendente (link será inserido quando publicado).
+- [x] gh CLI autenticado (IcaroPv01) — canal GitHub via API funcional (sem depender do browser).
+
+#### Preparado (aguardando sessão)
+- [x] Thread X (7 tweets) lida e pronta para postar — `vendas/divulgacao/twitter-thread-en.txt`
+- [x] app.py do demo-online validado (sintaxe OK) — pronto para HF Space
+- [x] Repo sem PRs/issues abertos (PR #26 já tratado)
 
 ---
 
