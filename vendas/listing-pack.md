@@ -88,3 +88,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Textos prontos**: `vendas/divulgacao/textos-prontos.md` (Reddit comments r/whisper + r/SideProject, Show HN com vídeo, Dev.to/Hashnode com embed, 5 posts Reddit novos, Discord 3 servers, BetaList, PH, 4 diretórios SEO).
 - [x] **Instruções Hotmart**: `vendas/como-subir-pagina-hotmart.md` (para o dono subir a página v2).
 - [ ] Browser Orca: ainda em crash loop — retomar PromptBase (2/4) + canais quando voltar.
+
+### 2026-08-09 — Estado final (aguardando restart manual do Orca pelo dono)
+- [ ] **Browser Orca**: crash loop persiste mesmo após kill + open via CLI (canal de app OK, CDP do browser morto). **Ação do dono:** fechar a janela do app Orca e reabrir manualmente (não apenas CLI).
+- [ ] **Pendente quando browser voltar:** PromptBase etapa 3/4 (payout Stripe — blocker humano) + 4/4 + publicar; Show HN; Dev.to; Hashnode; BetaList; Product Hunt; HF Space; Discord (3 servers); Reddit posts novos (5); comentários r/whisper + r/SideProject; diretórios SEO (4); IndieHackers sign-up.
+- [ ] **Loop 30 min:** checar vendas Hotmart + responder comentários (iniciar quando browser voltar).
