@@ -197,5 +197,19 @@
   </div>
 </div>
 
+<script>
+// Pixel de clique no checkout (monitoramento de conversão)
+(function () {
+  var ENDPOINT = 'https://stuck-beats-interstate-vacuum.trycloudflare.com/click/checkout';
+  function track() {
+    try {
+      fetch(ENDPOINT, { method: 'POST', keepalive: true, mode: 'no-cors' });
+    } catch (e) {}
+  }
+  document.querySelectorAll('a[href*="pay.hotmart.com"]').forEach(function (a) {
+    a.addEventListener('click', track);
+  });
+})();
+</script>
 </body>
 </html>
