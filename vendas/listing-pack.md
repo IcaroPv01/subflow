@@ -77,5 +77,7 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] Hotmart logado como Icaro Venzon; produto ativo (US$ 9,99; links go/pay E107014071J).
 
 ### 2026-08-09 — PromptBase em progresso (sessão 2)
-- [ ] **PromptBase** — formulário de criação em andamento (etapa 2/4 "Skill File"): item type=Agent Skill, runtime=Claude Skill, preço=$8.99, nome=subflow, trigger preenchido, SKILL.md body + tools preenchidos. **Faltam:** etapa 3/4 (exemplos) e 4/4 (publicar).
-- [ ] Runtime do Orca instável (cai repetidamente após ~2min de uso intenso) — retomar quando estabilizar.
+- [ ] **PromptBase** — formulário em andamento (etapa 2/4 "Skill File"), campos preenchidos via JS: item type=Agent Skill, runtime=Claude Skill, preço=$8.99, nome=subflow, trigger, SKILL.md body (pipeline completo), tools="Bash, Read, Edit, Grep, Glob". **Faltam:** etapa 3/4 (exemplos), 4/4 (publicar), e o clique "Next" (runtime caiu antes).
+- [ ] **Runtime do Orca instável** — canal de browser (snapshot/eval/goto) em crash loop persistente após kill/restart; canal de app (tab list/status) OK. **Ação do dono:** reiniciar o app Orca (fechar e abrir) ou reconectar o Chrome MCP. Retomar PromptBase (etapa 2/4 salva) quando estabilizar.
+
+- [x] **Discussion #1** — atualizada via gh CLI com link do YouTube publicado (discussioncomment-17955781).
