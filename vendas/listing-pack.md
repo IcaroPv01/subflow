@@ -59,3 +59,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 1. Logar no browser do Orca: Hotmart (conta do vendedor), Google/YouTube, X, LinkedIn, HN, Dev.to, Hashnode, BetaList, Product Hunt, Hugging Face, Reddit.
 2. OU reconectar o Chrome MCP (Chrome real do usuário, que tem as sessões).
 3. Confirmar o username real do Reddit e o post do r/whisper.
+### 2026-08-09 — Sessão 2 (supervisor, restrições dono: sem redes sociais pessoais)
+- [x] **Hotmart vendas (verificação a):** página de Vendas (app.hotmart.com/sales) **SEM vendas** — tabela vazia, 0 registros. Produto SubFlow ativo (pagina manage 8248938 OK, logado como Icaro Venzon).
+- [ ] PromptBase (verificação b)
+- [ ] IndieHackers (verificação c)
+- [ ] r/whisper (verificação d)
