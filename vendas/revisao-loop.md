@@ -7,6 +7,7 @@
 | Timestamp | Método | Resultado |
 |---|---|---|
 | (inicial) | Painel Hotmart (Minhas vendas) | 0 vendas registradas |
+| 2026-08-09 ~13:40 | Hotmart /sales | Sessão SSO perdida após restart do browser — login pendente do dono |
 
 ## 2. Comentários Recebidos (responder com conteúdo útil)
 
