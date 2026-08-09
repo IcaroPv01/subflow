@@ -70,3 +70,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
       Link: https://www.youtube.com/watch?v=8wywC_Evx9E
       (Título ajustado pelo dono: "under 8 hours" — o filme leva ~7h50, menos de 8h.)
 - [x] Descrição com links: repo, PDF gratuito, checkout Hotmart.
+
+### 2026-08-09 — Hotmart página v2 (sessão 2)
+- [x] **Página v2 criada** — `vendas/hotmart-page-v2.html` (hero + demo.gif, bullets, pipeline 1 comando, comparativo, testemunhos, garantia 7 dias, bônus, FAQ, CTA checkout). Commit 4c4d69a.
+- [ ] **Editar via UI** — BLOQUEADO: editor do Hotmart Pages não abre no browser embutido do Orca (cliques JS e reais falham; runtime instável; iframe app-vlc cross-origin). **Ação do supervisor:** subir `vendas/hotmart-page-v2.html` manualmente no Hotmart Pages (Editar → HTML) e publicar.
+- [x] Hotmart logado como Icaro Venzon; produto ativo (US$ 9,99; links go/pay E107014071J).
