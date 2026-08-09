@@ -1,0 +1,22 @@
+Pós LinkedIn (PT-BR, ~1300 caracteres)
+
+Eu traduzo filmes/documentários para PT-BR há anos.
+
+A parte chata sempre foi a mesma: transcrever (4-8x o tempo do vídeo), sincronizar, fazer QC, revisar idioma.
+
+Em 2024 decidi automatizar. O resultado é o SubFlow — um CLI + skill open-source (MIT) que faz o pipeline inteiro localmente:
+
+`subflow run URL --src-lang fr --tgt-lang pt`
+
+Resultado: vídeo -> SRT limpo, traduzido, com QC estilo Netflix, em ~1.3x o tempo do vídeo.
+
+O diferencial que ninguém tinha: detecção de alucinação do Whisper (`langcheck`). Em idiomas difíceis (árabe, mandarim, japonês), o Whisper "inventa" falas plausíveis mas desconectadas do áudio. O langcheck re-decodifica cada cue e compara o idioma detectado com o esperado.
+
+Caso real: legendagem do filme Soleil Ô (Med Hondo, 1977, 104 min). Manual: ~14h. Com SubFlow: 7h50. Mesma qualidade.
+
+Free PT-BR guide (PDF, 9 seções):
+raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf
+
+Repo: github.com/IcaroPv01/subflow
+
+#legendagem #whisper #transcricao #opensource #localAI #ptbr
