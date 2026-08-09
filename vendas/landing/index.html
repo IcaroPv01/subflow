@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SubFlow - 100% local subtitle pipeline (Whisper + QC + translation)</title>
+<meta name="description" content="CLI + Claude Code skill. Transcribe, translate, QC, hallucination detection. One command, fully offline.">
+<style>
+  :root { --primary:#1a237e; --accent:#3949ab; --bg:#fafafa; --card:#fff; --muted:#666; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         margin:0; background:var(--bg); color:#222; line-height:1.55; }
+  header { background:linear-gradient(135deg,#1a237e,#3949ab); color:#fff; padding:56px 24px 40px; text-align:center; }
+  header h1 { margin:0 0 14px; font-size:42px; line-height:1.15; }
+  header p { margin:0 auto; opacity:.95; font-size:19px; max-width:720px; }
+  .badges { margin-top:18px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+  .badge { background:rgba(255,255,255,.18); padding:5px 12px; border-radius:6px; font-size:13px; font-weight:600; }
+  .wrap { max-width:960px; margin:0 auto; padding:40px 24px; }
+  .card { background:var(--card); border-radius:12px; padding:32px; margin-bottom:24px;
+          box-shadow:0 2px 12px rgba(0,0,0,.06); }
+  .terminal { background:#0c0c10; color:#e8e8e8; padding:20px 24px; border-radius:8px;
+              font-family:Consolas,Menlo,monospace; font-size:14px; line-height:1.5;
+              overflow-x:auto; white-space:pre; }
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; }
+  @media(max-width:720px){.grid{grid-template-columns:1fr;}}
+  .feature h3 { color:var(--primary); margin:0 0 6px; font-size:18px; }
+  .feature p { margin:0; color:var(--muted); font-size:14px; }
+  table { border-collapse:collapse; width:100%; font-size:14px; margin-top:8px; }
+  th,td { padding:8px 12px; text-align:left; border-bottom:1px solid #eee; }
+  th { background:#f5f5f5; font-weight:600; }
+  td.yes { color:#2e7d32; font-weight:700; }
+  td.no { color:#c62828; }
+  td.partial { color:#ef6c00; }
+  a.btn { display:inline-block; padding:14px 32px; color:#fff; text-decoration:none;
+          border-radius:8px; font-weight:600; font-size:16px; }
+  a.btn-primary { background:var(--primary); }
+  a.btn-success { background:#2e7d32; }
+  a.btn-ghost { background:transparent; color:var(--primary); border:2px solid var(--primary); }
+  .cta-row { display:flex; gap:16px; flex-wrap:wrap; justify-content:center; margin-top:18px; }
+  footer { text-align:center; padding:32px 24px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SubFlow</h1>
+  <p>One CLI. One command. Professional subtitles from any video, <strong>100% locally</strong>.</p>
+  <div class="badges">
+    <span class="badge">MIT license</span>
+    <span class="badge">Whisper local</span>
+    <span class="badge">Netflix-style QC</span>
+    <span class="badge">Hallucination detection</span>
+  </div>
+</header>
+<div class="wrap">
+  <div class="card" style="text-align:center;">
+    <div class="terminal">$ subflow run "https://archive.org/soleil-o.mp4" --src-lang fr --tgt-lang pt
+[1/6] downloading audio ... done
+[2/6] transcribing (faster-whisper, large-v2, int8_float16) ... 1247 cues
+[3/6] building glossary (60 terms) ... done
+[4/6] translating in 22 batches ... 4h15
+[5/6] building SRT ... done
+[6/6] clean + QC + langcheck ... 0 errors
+Done in 7h 52min -&gt; translation/out_clean.srt
+
+A 104-min documentary subtitled in 7h50.
+Same quality as 14h of manual work.</div>
+  </div>
+  <div class="card">
+    <h2 style="margin-top:0;">Why SubFlow</h2>
+    <table>
+      <thead><tr><th>Feature</th><th>SubFlow</th><th>Subtitle Edit</th><th>Descript</th><th>OpenAI Whisper API</th></tr></thead>
+      <tbody>
+        <tr><td>Cost per video</td><td class="yes">$0 (local)</td><td>$0</td><td>$24/mo</td><td>~$1/film</td></tr>
+        <tr><td>Privacy</td><td class="yes">100% local</td><td class="yes">local</td><td class="no">upload</td><td class="no">upload</td></tr>
+        <tr><td>Automatic QC</td><td class="yes">Netflix-style</td><td class="partial">partial</td><td class="partial">partial</td><td class="no">no</td></tr>
+        <tr><td>Hallucination detection</td><td class="yes">langcheck</td><td class="no">no</td><td class="no">no</td><td class="no">no</td></tr>
+        <tr><td>Batch translation</td><td class="yes">yes (text-only)</td><td class="no">no</td><td class="yes">yes</td><td class="no">no</td></tr>
+        <tr><td>License</td><td class="yes">MIT</td><td>GPL</td><td class="no">proprietary</td><td class="no">proprietary</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h2 style="margin-top:0;">Built for</h2>
+    <div class="grid">
+      <div class="feature"><h3>Professional subtitlers</h3><p>6x to 1.3x video length, same quality. One command, zero per-minute cost.</p></div>
+      <div class="feature"><h3>Translation agencies</h3><p>License the pipeline to scale (commercial license $9.99). White-label ready.</p></div>
+      <div class="feature"><h3>Documentary and indie film</h3><p>Any source language to any target, including Arabic, Mandarin, Japanese.</p></div>
+      <div class="feature"><h3>Privacy-sensitive work</h3><p>Legal, medical, corporate - video never leaves the machine.</p></div>
+      <div class="feature"><h3>Hard languages</h3><p>Whisper hallucinates on Arabic, Mandarin, Japanese. langcheck catches it.</p></div>
+      <div class="feature"><h3>Reproducible pipeline</h3><p>One command, version-controlled inputs, no magic. CI/CD friendly.</p></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2 style="margin-top:0;">What you get</h2>
+    <ul style="font-size:15px;">
+      <li><strong>subflow run</strong> - full pipeline (download, transcribe, translate, clean, QC)</li>
+      <li><strong>subflow qc --profile netflix</strong> - automatic QC report</li>
+      <li><strong>subflow langcheck</strong> - re-decodes each cue, flags ASR hallucinations</li>
+      <li><strong>subflow clean --merge --extend</strong> - fixes Whisper cuts and reading-speed issues</li>
+      <li><strong>SKILL.md</strong> - Claude Code skill for agent-assisted translation</li>
+      <li><strong>stdlib-only Python 3.10+</strong> - no exotic deps</li>
+    </ul>
+  </div>
+  <div class="card" style="text-align:center; background:linear-gradient(135deg,#fff8e1,#fff);">
+    <h2 style="margin-top:0;">Free PT-BR guide</h2>
+    <p>9 sections + final checklist. Learn the workflow I use for documentary translation.</p>
+    <div class="cta-row"><a class="btn btn-primary" href="https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf">Download PDF (free)</a></div>
+    <p style="color:var(--muted); font-size:13px; margin-top:14px;">~20 KB - 15-min read - No signup</p>
+  </div>
+  <div class="card" style="text-align:center;">
+    <h2 style="margin-top:0;">Get SubFlow</h2>
+    <div class="cta-row">
+      <a class="btn btn-ghost" href="https://github.com/IcaroPv01/subflow">Star on GitHub</a>
+      <a class="btn btn-ghost" href="https://huggingface.co/spaces/IcaroPv01/subflow-demo">Try the demo</a>
+      <a class="btn btn-success" href="https://pay.hotmart.com/E107014071J">Buy commercial license ($9.99)</a>
+    </div>
+    <p style="color:var(--muted); font-size:13px; margin-top:14px;">Personal use: MIT (free). Commercial: $9.99. Pro tier: $24.99 with templates and lifetime updates.</p>
+  </div>
+</div>
+<footer>
+  <p>SubFlow - CLI + skill open-source (MIT) - <a href="https://github.com/IcaroPv01/subflow">github.com/IcaroPv01/subflow</a></p>
+  <p style="font-size:13px;">&copy; 2026 Icaro Venzon. Made in Porto Alegre, RS.</p>
+</footer>
+</body>
+</html>
