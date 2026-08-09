@@ -93,3 +93,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [ ] **Browser Orca**: crash loop persiste mesmo após kill + open via CLI (canal de app OK, CDP do browser morto). **Ação do dono:** fechar a janela do app Orca e reabrir manualmente (não apenas CLI).
 - [ ] **Pendente quando browser voltar:** PromptBase etapa 3/4 (payout Stripe — blocker humano) + 4/4 + publicar; Show HN; Dev.to; Hashnode; BetaList; Product Hunt; HF Space; Discord (3 servers); Reddit posts novos (5); comentários r/whisper + r/SideProject; diretórios SEO (4); IndieHackers sign-up.
 - [ ] **Loop 30 min:** checar vendas Hotmart + responder comentários (iniciar quando browser voltar).
+
+### 2026-08-09 — PromptBase etapas 2/4 e 3/4 (sessão 2, retomada)
+- [x] **Etapa 2/4 COMPLETA** — validação passou (o clique em "Next: Enable Payouts" avançou): skill name=subflow, trigger, SKILL.md body (pipeline completo), tools, 2 exemplos, modelo **claude-5-sonnet**, setup instructions.
+- [x] **Etapa 3/4 (Payout)**: método **Instant USDC** selecionado, país **Brazil** (BR) setado, botão "Enable Payouts" clicado.
+- [ ] **BLOCKER HUMANO DO DONO**: o fluxo abriu verificação de identidade (Zoneless/USDC) pedindo: legal name, email, date of birth, home address. **Ação do dono:** preencher os dados pessoais no navegador (aba PromptBase) e completar. Depois: etapa 4/4 (review) + publicar.
