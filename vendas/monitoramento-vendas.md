@@ -74,3 +74,12 @@ Payload exemplo:
 ```
 
 Se quiser, eu posso configurar um pequeno servidor (Python/Flask) com ngrok para receber esses webhooks.
+
+## Estado atual (2026-08-09, instância deepseek)
+
+- **Webhook server ATIVO** (Flask, porta 5050, SQLite em ~/.subflow/sales.sqlite, endpoints /hotmart/webhook, /click/checkout, /status, /sales).
+- **Túnel público ativo (cloudflared, sem conta):** `https://stuck-beats-interstate-vacuum.trycloudflare.com`
+  - Endpoints: `/hotmart/webhook` (Hotmart), `/click/checkout` (pixel), `/status`, `/sales`
+- **Teste OK:** POST PURCHASE_APPROVED registrado (id 1 no SQLite).
+- **Ação do dono:** configurar no Hotmart (app.hotmart.com/webhooks) o webhook `https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook` apontando para o produto 8248938. O túnel muda a cada reinício — re-anotar a URL se preciso.
+- **ngrok:** bloqueado (e-mail da conta não verificado — ERR_NGROK_123). Usar cloudflared.
