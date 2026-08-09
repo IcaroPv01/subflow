@@ -83,6 +83,11 @@ real case study (104-min film in 7h50). Free PDF (~20 KB):
 | [Watch the GIF demo](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/assets/demo.gif)
 | [Compare with alternatives](https://github.com/IcaroPv01/subflow/blob/main/vendas/comparativo.md)
 
+## Resources
+
+- **Video demo (YouTube):** [Subtitle a whole film in under 8 hours (Whisper, local, free)](https://www.youtube.com/watch?v=8wywC_Evx9E)
+- **Buy on Hotmart (US$ 9.99):** https://pay.hotmart.com/E107014071J
+
 ## License
 
 MIT. The bundled binaries (yt-dlp, ffmpeg, Faster-Whisper) are not part of this
