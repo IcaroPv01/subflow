@@ -81,3 +81,10 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [ ] **Runtime do Orca instável** — canal de browser (snapshot/eval/goto) em crash loop persistente após kill/restart; canal de app (tab list/status) OK. **Ação do dono:** reiniciar o app Orca (fechar e abrir) ou reconectar o Chrome MCP. Retomar PromptBase (etapa 2/4 salva) quando estabilizar.
 
 - [x] **Discussion #1** — atualizada via gh CLI com link do YouTube publicado (discussioncomment-17955781).
+
+### 2026-08-09 — Divulgação do vídeo YouTube (sessão 2, via gh CLI)
+- [x] **README**: seção "Resources" adicionada com link do vídeo (commit c0e5d1e).
+- [x] **Discussion #1**: corpo atualizado com link + embed do vídeo (updateDiscussion OK) + comentário com link (17955926) + PDF (17954844).
+- [x] **Textos prontos**: `vendas/divulgacao/textos-prontos.md` (Reddit comments r/whisper + r/SideProject, Show HN com vídeo, Dev.to/Hashnode com embed, 5 posts Reddit novos, Discord 3 servers, BetaList, PH, 4 diretórios SEO).
+- [x] **Instruções Hotmart**: `vendas/como-subir-pagina-hotmart.md` (para o dono subir a página v2).
+- [ ] Browser Orca: ainda em crash loop — retomar PromptBase (2/4) + canais quando voltar.
