@@ -70,6 +70,16 @@ guarantees the mechanics; the skill owns the translation quality.
 - One human pass at the end (Subtitle Edit) — the AI does 95%.
 - No GPU required (slow but works on CPU); GPU makes it minutes, not hours.
 
+
+## Free guide (PT-BR)
+
+A 9-section e-book on professional PT-BR subtitling with local Whisper — covers the
+pipeline, Netflix-style QC, glossary construction, ASR hallucination detection, and a
+real case study (104-min film in 7h50). Free PDF (~20 KB):
+
+**[Download the free guide (PDF, PT-BR)](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf)**
+| [Landing page (PT-BR)](https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/landing/guia-gratuito.html)
+
 ## License
 
 MIT. The bundled binaries (yt-dlp, ffmpeg, Faster-Whisper) are not part of this
