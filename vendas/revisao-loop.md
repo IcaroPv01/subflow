@@ -91,3 +91,4 @@
 - 0 upvotes
 - 0 comentários
 - 0 cliques no checkout
+| 2026-08-09 ~14:10 | Webhook (automático) | 0 vendas reais (1 de teste); 1 clique de teste registrado |
