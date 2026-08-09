@@ -63,4 +63,4 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Hotmart vendas (verificação a):** página de Vendas (app.hotmart.com/sales) **SEM vendas** — tabela vazia, 0 registros. Produto SubFlow ativo (pagina manage 8248938 OK, logado como Icaro Venzon).
 - [x] **PromptBase (verificação b):** listagem "subflow" NAO publicada — busca pública 0 hits; /sell mostra formulário de criação (dropdowns: item type inclui "Agent Skill", generation Text/Images/Videos, preço), mas preenchido com outro prompt ("Vibrant Startup Logos"). Criar listagem nova quando possível.
 - [x] **IndieHackers (verificação c):** BLOQUEADO por desafio Cloudflare (indiehackers.com/sign-up) após 2 tentativas + reload. Tentar novamente em outra janela/sessão.
-- [ ] r/whisper (verificação d)
+- [x] **r/whisper (verificação d):** post do SubFlow NAO localizado — busca global "subflow", "IcaroPv01" e feed r/whisper sem resultados (sub é do app social Whisper, não do ASR). Username Reddit não confirmado.
