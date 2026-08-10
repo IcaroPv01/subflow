@@ -203,3 +203,10 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **awesome-selfhosted** → ⛔ Criterio de ~200 stars (SubFlow tem 0)
 - [x] Repos inexistentes: mitchellkrogza/awesome-chatgpt, ikaijua/awesome-ai-tools, canada-ca/awesome-podcast-tools, mbiesiad/awesome-translation, openbestof/awesome-open-source-ai, modelcontextprotocol/awesome-mcp (404)
 - [x] **awesome-subtitles**: nao existe repo oficial (search vazio)
+
+### 2026-08-10 ~02:20 — Rodada final (PRs + topicos + canais v3)
+- [x] **Topicos do repo**: 8 adicionados (whisper, subtitles, transcription, cli, local-first, video, ai, opensource) — indexa GitHub Explore + ajuda awesome-lists.
+- [x] **RepoRanker** (novo, canais-extras-v3.md): leaderboard open-source, 4 campos, free — exige "Sign in with GitHub" (browser sem sessao — para quando dono logar GitHub).
+- [x] **canais-extras-v3.md**: criado (RepoRanker, GitHub Explore/Trending, SourceForge, GitLab mirror, LibHunt) + acoes derivadas.
+- [x] **HOTMART-NO-AR.md**: seção "Canais: publicados vs pendentes" (9 publicados, bloqueados por login, bloqueados por restricao).
+- [x] Vendas: 0 reais (webhook confirmado, 2 simuladas de teste).
