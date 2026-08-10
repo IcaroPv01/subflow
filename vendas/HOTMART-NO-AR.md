@@ -162,3 +162,9 @@ vendas/
 
 ## Vendas (verificação final)
 - **0 reais** — webhook confirmado (2 vendas simuladas de teste, US$ 9,99)
+
+---
+
+## Canal novo quase-pronto (2026-08-10, v7)
+- ⚠️ **Dofollow.Tools** — wizard 2 etapas preenchido (todos os campos + categorias Video/AI + Web + Freemium) — falta upload do LOGO (30s manual) + Submit. Backlink dofollow.
+- 🔍 **Spiff.store / DataLook.io / BestOfWeb** — ativos, forms a testar.
