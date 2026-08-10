@@ -33,5 +33,5 @@
 |---|---|---|
 | **TinyLaunch** | ⛔ Login necessário | /submit pede email (Welcome Back / Sign up) — sem conta tecnica |
 | **awesome-ai-agents-2026** | ⛔ Nao encaixa | Seções sao de modelos/MCP/agentes de codigo (Trae, Qwen Code, MCP servers) — SubFlow nao e nenhum |
-| **SubmitALLAI** | 🔍 Testar | Diretorio ativo (submitallai.com) |
+| **SubmitALLAI** | ⚠️ Form preenchido + CAPTCHA | Form de 11 campos preenchidos (nome, URL, tagline, desc, email, homepage, AI Tool, Coding, Freemium) — mas "Please confirm you are not a robot" (reCAPTCHA) bloqueia o submit automatico. Resolver manualmente (Chrome real) para completar |
 | **r/AIDeveloperNews** | 🔍 Testar | Requer login Reddit |
