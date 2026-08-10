@@ -120,3 +120,9 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **vendas/CHECKLIST-DONO.md**: criado — 13 itens humanos pendentes (Zoneless, Hotmart re-login, página v2, webhook, sessões técnicas, IndieHackers, r/selfhosted, Sponsors, GoTranscript, Reddit login; Twitter/LinkedIn/FB/IG proibidos).
 - [x] **Reddit**: posts 1vfs2ug e 1vfvdl9 REMOVIDOS pelos filtros — re-post pendente com sessão.
 - [ ] **Show HN + Dev.to**: aguardando sessão (HN e Dev.to deslogados).
+
+### 2026-08-09 ~14:45 — Hotmart verificado (browser voltou)
+- [x] **Tarefa 1**: navegado para products/manage/8248938 — painel OK, screenshot capturado.
+- [x] **Tarefa 2**: **0 vendas** (Minhas vendas: "Total de 0 registros entre 10/07 e 09/08", "Nenhum resultado encontrado").
+- [x] **Tarefa 3**: **checkout NO AR** — pay.hotmart.com/E107014071J carrega: "SubFlow — Legendas profissionais de qualquer vídeo, 100% local", autor ICARO PIETRO VENZON, R$ 55,86, cartão+PayPal.
+- [x] **Tarefa 4**: editor do Hotmart Pages **abriu** (janela editor.pages.hotmart.com, AI mode) — página já publicada (20260804-v0001) com CTA correto. Editor AI não aceita HTML inline → fallback hotmart-page-v2.html continua disponível para upload manual se quiser o layout customizado.
