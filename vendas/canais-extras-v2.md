@@ -67,3 +67,8 @@ Checkout: https://pay.hotmart.com/E107014071J (coupon SUBFLOW15 = 15% off)
 | **StartupBase** | 🔍 testar | |
 | **AI Parabellum** | 🔍 testar | |
 | **RevAvenues** | 🔍 testar | |
+
+| **Launching Next** | ⛔ Não é submit de produto | /submit redireciona para página de artigo ("Publish An Article") |
+| **StartupBase** | ⛔ Login necessário | Launch exige conta (Google/LinkedIn/X/Email — sem GitHub) |
+| **AI Parabellum** | 🔍 página de thought leader | /submit não identificado claramente |
+| **RevAvenues** | ⛔ 404 | /submit não existe |
