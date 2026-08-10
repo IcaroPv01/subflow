@@ -143,3 +143,12 @@ vendas/
 
 ### 💰 Vendas
 - **0 reais** — monitorando 24h via loop (30min/check) + webhook cloudflared (server Flask :5050)
+
+---
+
+## Canais extras v6 descobertos (2026-08-10 ~04:00)
+- **Tiny Startups** (tinystartups.com) — newsletter 20k founders, submit grátis com conta
+- **JustFree.io** — diretório curado indie (submit no site)
+- **Fazier** — leaderboard diário estilo PH (free, dofollow)
+- **8 diretórios com backlink recíproco** (Tool Pilot, Foundr, Wavel, Based Tools, Buzzmatic, Look AI Tools, AI Toolz Dir, AI Tool Trek) — grátis em troca de link
+- Testados bloqueados: Pitchwall (pago), Try.tools (404/promo), Publite/WIP/Launched.today (SPA vazio), launched.io/submit.coffee (mortos)
