@@ -144,3 +144,8 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 
 ### 2026-08-10 ~22:00 — Webhook Hotmart: SPA nao renderiza no browser embutido
 - [ ] **Webhook**: app.hotmart.com/products/manage/8248938/webhooks e /connect/webhooks nao renderizam (SPA limita no browser embutido; /webhooks = not-found). Seção "Ferramentas" do produto abre /tools/list/producer (vazio). **Acao do dono:** configurar webhook manualmente no Chrome real: Produto > Ferramentas > Webhooks, URL https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook, eventos PURCHASE_APPROVED + PURCHASE_COMPLETE. Server Flask ativo e testado.
+
+### 2026-08-10 ~22:11 — HOTMART: CUPOM CRIADO
+- [x] **Cupom SUBFLOW15 = 15% de desconto** (todas as ofertas, válido desde 09/08/2026, America/Sao_Paulo).
+  - Detalhe técnico: o campo de porcentagem usa máscara decimal brasileira — "15" vira "0,15" (0,15%), "1500" vira "15,00" (15%). O fill via CDP registra corretamente.
+- [ ] **Próximo:** order bumps/upsells (Precificação e ofertas), welcome sequence (Área de membros), afiliados.
