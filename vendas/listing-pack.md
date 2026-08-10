@@ -160,3 +160,11 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 ### 2026-08-10 ~22:45 — HOTMART: WELCOME SEQUENCE BLOQUEADA (login Club separado)
 - [ ] **Welcome sequence (3 emails)**: BLOQUEADO — a automação fica no Hotmart Club (club.hotmart.com), que exige LOGIN PRÓPRIO (OAuth com productId=8248938). A sessão do app.hotmart não cobre. **Acao do dono:** logar em club.hotmart.com (aba do navegador) e depois configurar os 3 emails de vendas/welcome-sequence.md (imediato + 48h + 7dias).
 - [x] Conteudo dos 3 emails pronto em vendas/welcome-sequence.md.
+
+### 2026-08-10 ~22:50 — HOTMART rodada final (tarefas 1-6)
+- [x] **Tarefa 1 (welcome sequence)**: BLOQUEADA — Club exige login próprio (club.hotmart.com OAuth). Conteudo pronto em welcome-sequence.md; acao do dono: logar no Club e configurar 3 emails.
+- [x] **Tarefa 2 (loop 30min)**: monitor_loop.sh ativo (PID 6782, 48 checagens x 30min) logando em vendas/webhook/monitor-vendas.log.
+- [x] **Tarefa 3 (webhook)**: SPA nao renderiza /integrations nem /webhooks no browser embutido — permanece acao manual do dono (URL do tunel pronta no CHECKLIST-DONO).
+- [x] **Tarefa 4 (webhook status)**: server + tunel ATIVOS — 1 clique, 1 venda de teste (sales_total=0).
+- [x] **Tarefa 5 (checkout publico)**: pay.hotmart.com/E107014071J verificado em ABA ANONIMA — titulo, autor, R$ 55,86, campo cupom (SUBFLOW15), Cartao+PayPal, Comprar agora. TUDO OK.
+- [x] **Tarefa 6 (Discussion #1)**: link da pagina customizada adicionado (discussioncomment-17957533).
