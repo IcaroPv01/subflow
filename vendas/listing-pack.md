@@ -149,3 +149,10 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Cupom SUBFLOW15 = 15% de desconto** (todas as ofertas, válido desde 09/08/2026, America/Sao_Paulo).
   - Detalhe técnico: o campo de porcentagem usa máscara decimal brasileira — "15" vira "0,15" (0,15%), "1500" vira "15,00" (15%). O fill via CDP registra corretamente.
 - [ ] **Próximo:** order bumps/upsells (Precificação e ofertas), welcome sequence (Área de membros), afiliados.
+
+### 2026-08-10 ~22:30 — HOTMART: CHECKOUT CONFIGURADO (foco do dono)
+- [x] **Checkout configurado e salvo** ("Processamento concluído!"): dados = Nome+Email (+celular opcional), formas = Hotmart/Pix/Cartão (+18) + PayPal/Mercado Pago, cupom de desconto ATIVO, pagamento híbrido, preço parcelado em destaque, página de obrigado Hotmart.
+- [x] **Cupom SUBFLOW15 = 15%** (todas as ofertas; máscara decimal: "1500" = 15,00%).
+- [ ] **Order Bump/Upsell**: PENDENTE — exige um PRODUTO COMPLEMENTAR para vender (só existe o SubFlow; o editor da oferta /offers/edit/14837554 não tem seção de bump sem outro produto). **Ação:** criar produto complementar (ex.: guia avançado) ou pular.
+- [ ] **Webhook**: SPA não renderiza a seção (Ferramentas > Webhooks) no browser embutido — configurar manualmente no Chrome real (URL do túnel cloudflared + PURCHASE_APPROVED/COMPLETE).
+- [ ] **Welcome sequence** (Área de membros): não explorada — pular para próxima rodada (foco foi checkout+cupom).
