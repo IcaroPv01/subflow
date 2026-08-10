@@ -126,3 +126,9 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Tarefa 2**: **0 vendas** (Minhas vendas: "Total de 0 registros entre 10/07 e 09/08", "Nenhum resultado encontrado").
 - [x] **Tarefa 3**: **checkout NO AR** — pay.hotmart.com/E107014071J carrega: "SubFlow — Legendas profissionais de qualquer vídeo, 100% local", autor ICARO PIETRO VENZON, R$ 55,86, cartão+PayPal.
 - [x] **Tarefa 4**: editor do Hotmart Pages **abriu** (janela editor.pages.hotmart.com, AI mode) — página já publicada (20260804-v0001) com CTA correto. Editor AI não aceita HTML inline → fallback hotmart-page-v2.html continua disponível para upload manual se quiser o layout customizado.
+
+### 2026-08-09 ~14:55 — Tarefas 5-8 (Show HN, Dev.to, Hashnode, BetaList)
+- [ ] **Show HN**: HN BLOQUEADO com "Sorry." (rate limit do HN por navegacao automatizada rapida — costuma durar ~30min+). **Acao:** aguardar ~30-60min e tentar de novo, ou o dono posta manualmente com vendas/divulgacao/show-hn.txt + link do video.
+- [ ] **Dev.to**: exige login (sem conta tecnica logada) — pular até o dono logar.
+- [ ] **Hashnode**: exige login (callbackUrl=%2Fdrafts) — pular até o dono logar.
+- [ ] **BetaList**: exige login (betalist.com/sign_in) — pular até o dono logar.
