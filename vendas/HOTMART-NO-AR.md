@@ -152,3 +152,13 @@ vendas/
 - **Fazier** — leaderboard diário estilo PH (free, dofollow)
 - **8 diretórios com backlink recíproco** (Tool Pilot, Foundr, Wavel, Based Tools, Buzzmatic, Look AI Tools, AI Toolz Dir, AI Tool Trek) — grátis em troca de link
 - Testados bloqueados: Pitchwall (pago), Try.tools (404/promo), Publite/WIP/Launched.today (SPA vazio), launched.io/submit.coffee (mortos)
+
+---
+
+## 3 QUASE-PRONTOS (dono finaliza em 3 min — CHECKLIST-3-1MIN.md)
+- ⚠️ **Tool Pilot** — form 95% preenchido; falta dropdown "Type of tool" + Submit
+- ⚠️ **AI Toolz Dir** — 6 campos preenchidos; falta modal "Get listed for free" + categoria
+- ⚠️ **SubmitALLAI** — 11 campos preenchidos; falta reCAPTCHA humano + Submit
+
+## Vendas (verificação final)
+- **0 reais** — webhook confirmado (2 vendas simuladas de teste, US$ 9,99)
