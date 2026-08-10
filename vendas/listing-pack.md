@@ -141,3 +141,6 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Checkout confirmado no ar**: pay.hotmart.com/E107014071J (R$ 55,86, cartão+PayPal).
 - [x] **0 vendas** confirmado em Minhas vendas.
 - [ ] **PRÓXIMO**: configurar webhook de vendas (tarefa 3), order bumps/upsells (4), welcome sequence (6), cupom SUBFLOW15 (7), afiliados (8).
+
+### 2026-08-10 ~22:00 — Webhook Hotmart: SPA nao renderiza no browser embutido
+- [ ] **Webhook**: app.hotmart.com/products/manage/8248938/webhooks e /connect/webhooks nao renderizam (SPA limita no browser embutido; /webhooks = not-found). Seção "Ferramentas" do produto abre /tools/list/producer (vazio). **Acao do dono:** configurar webhook manualmente no Chrome real: Produto > Ferramentas > Webhooks, URL https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook, eventos PURCHASE_APPROVED + PURCHASE_COMPLETE. Server Flask ativo e testado.

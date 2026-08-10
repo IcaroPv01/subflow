@@ -23,9 +23,9 @@
 - **O que fazer:** seguir `vendas/como-subir-pagina-hotmart.md` — colar `vendas/hotmart-page-v2.html` no bloco HTML, upload do GIF, publicar.
 - **Feito quando:** a página customizada exibe o HTML v2 (hero, demo.gif, comparativo, FAQ, CTA).
 
-### 4. Hotmart — configurar webhook
-- **Onde:** https://app.hotmart.com/webhooks (ou Connect).
-- **O que fazer:** webhook POST → `https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook` (produto 8248938). O server Flask já está rodando (porta 5050) e testado.
+### 4. Hotmart — configurar webhook (MANUAL — SPA não renderiza no browser embutido)
+- **Onde:** app.hotmart.com → Produto SubFlow → Ferramentas → Webhooks (o SPA não renderiza essa seção no browser embutido do Orca; usar o Chrome real).
+- **O que fazer:** webhook POST → `https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook` (produto 8248938), eventos PURCHASE_APPROVED + PURCHASE_COMPLETE. O server Flask já está rodando (porta 5050) e testado (venda id 1 de teste).
 - **Feito quando:** uma compra de teste gera registro em `~/.subflow/sales.sqlite`.
 
 ### 5. Sessões técnicas no browser (para eu publicar)
