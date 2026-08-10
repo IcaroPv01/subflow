@@ -63,18 +63,18 @@ Checkout: https://pay.hotmart.com/E107014071J (coupon SUBFLOW15 = 15% off)
 | 1 | AI Tool Directory | ✅ **SUBMETIDO** (aguardando review) | Formulário paperform; nome, URL, descrições, tags, pricing Free, ad-space NO; "Tool Submission Successful" |
 | 2 | Toolify.ai | ⛔ Pago | Listing exige "Pay $99"; formulário nome+URL sem submit grátis |
 | 3 | TopAI.tools | ⛔ Login necessário | Submit requer conta (SIGN IN); planos pagos $47/$229 |
-| 4 | Peerlist | ⏳ pendente | |
-| 5 | AiToolHunt | ⏳ pendente | |
-| 6 | AI Scout | ⏳ pendente | |
-| 7 | FutureTools | ⏳ pendente | |
-| 8 | Dang.ai | ⏳ pendente | |
-| 9 | Fazier | ⏳ pendente | |
-| 10 | Indie Tools | ⏳ pendente | |
-| 11 | BuiltByMe | ⏳ pendente | |
-| 12 | BestAIBrands | ⏳ pendente | |
-| 13 | Stackradar | ⏳ pendente | |
-| 14 | Mars AI Directory | ⏳ pendente | |
-| 15 | AI Tools Arena | ⏳ pendente | |
-| 16 | Easywithai.com | ⏳ pendente | |
-| 17 | All Things AI | ⏳ pendente | |
-| 18 | DevHunt | ⏳ pendente | |
+| 4 | Peerlist | ⛔ Login necessário | Product showcase exige conta |
+| 5 | AiToolHunt | ⛔ Fora do ar | 404 em /submit e na home |
+| 6 | AI Scout | ⛔ Fora do ar | QUIC.cloud erro 520 (origin inacessível) |
+| 7 | FutureTools | ⛔ 404 | /submit-tool e /submit não existem |
+| 8 | Dang.ai | ⛔ Login necessário | Submit exige email magic link |
+| 9 | Fazier | ⛔ Domínio mudou | fazier.com agora é outro site |
+| 10 | Indie Tools | ⛔ Domínio expirado | indietools.io fora do ar |
+| 11 | BuiltByMe | ⛔ Domínio mudou | virou outro negócio (STEM programs) |
+| 12 | BestAIBrands | ⛔ Vazio | página sem formulário |
+| 13 | Stackradar | ⛔ 404 | /submit não existe |
+| 14 | Mars AI Directory | ⛔ JS não renderiza | página vazia no browser embutido |
+| 15 | AI Tools Arena | ⛔ 404 | /submit não existe |
+| 16 | Easywithai.com | ⛔ Erro | página com erro interno |
+| 17 | All Things AI | ⛔ Vazio | página sem conteúdo/submit |
+| 18 | DevHunt | ⛔ Login necessário | Submit requer /login |
