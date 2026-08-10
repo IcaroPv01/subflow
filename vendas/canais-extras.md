@@ -53,3 +53,28 @@ Checkout: https://pay.hotmart.com/E107014071J (coupon SUBFLOW15 = 15% off)
 2. Postar no **OpenAI Dev Community** respondendo tópicos de alucinação do Whisper (SubFlow resolve com langcheck)
 3. **DevHunt** — launch semanal para dev tools
 4. PR no **best-of-ai/ai-directories** (listar o SubFlow nos diretórios)
+
+---
+
+## Status dos cadastros (2026-08-10)
+
+| # | Diretório | Status | Nota |
+|---|---|---|---|
+| 1 | AI Tool Directory | ✅ **SUBMETIDO** (aguardando review) | Formulário paperform; nome, URL, descrições, tags, pricing Free, ad-space NO; "Tool Submission Successful" |
+| 2 | Toolify.ai | ⛔ Pago | Listing exige "Pay $99" (formulário nome+URL + radio, mas submit só pago) |
+| 3 | TopAI.tools | ⏳ pendente | |
+| 4 | Peerlist | ⏳ pendente | |
+| 5 | AiToolHunt | ⏳ pendente | |
+| 6 | AI Scout | ⏳ pendente | |
+| 7 | FutureTools | ⏳ pendente | |
+| 8 | Dang.ai | ⏳ pendente | |
+| 9 | Fazier | ⏳ pendente | |
+| 10 | Indie Tools | ⏳ pendente | |
+| 11 | BuiltByMe | ⏳ pendente | |
+| 12 | BestAIBrands | ⏳ pendente | |
+| 13 | Stackradar | ⏳ pendente | |
+| 14 | Mars AI Directory | ⏳ pendente | |
+| 15 | AI Tools Arena | ⏳ pendente | |
+| 16 | Easywithai.com | ⏳ pendente | |
+| 17 | All Things AI | ⏳ pendente | |
+| 18 | DevHunt | ⏳ pendente | |
