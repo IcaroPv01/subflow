@@ -18,12 +18,7 @@
 - **O que fazer:** logar como Icaro Venzon → Vendas > Minhas vendas (loop de 30 min manual).
 - **Feito quando:** `app.hotmart.com/sales` carrega sem redirecionar para sso.hotmart.com/login.
 
-### 3. Hotmart — subir página de vendas v2 (manual)
-- **Onde:** https://app.hotmart.com/products/manage/8248938 → Página do produto → Editar.
-- **O que fazer:** seguir `vendas/como-subir-pagina-hotmart.md` — colar `vendas/hotmart-page-v2.html` no bloco HTML, upload do GIF, publicar.
-- **Feito quando:** a página customizada exibe o HTML v2 (hero, demo.gif, comparativo, FAQ, CTA).
-
-### 4. Hotmart — configurar webhook (MANUAL — SPA não renderiza no browser embutido)
+### 4. Hotmart — configurar webhook oficial (CHROME REAL)
 - **Onde:** app.hotmart.com → Produto SubFlow → Ferramentas → Webhooks (o SPA não renderiza essa seção no browser embutido do Orca; usar o Chrome real).
 - **O que fazer:** webhook POST → `https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook` (produto 8248938), eventos PURCHASE_APPROVED + PURCHASE_COMPLETE. O server Flask já está rodando (porta 5050) e testado (venda id 1 de teste).
 - **Feito quando:** uma compra de teste gera registro em `~/.subflow/sales.sqlite`.
@@ -82,3 +77,13 @@
 - Textos prontos: `vendas/textos-prontos.md` (todos os canais com link do vídeo)
 - Instruções Hotmart: `vendas/como-subir-pagina-hotmart.md`
 - Página v2: `vendas/hotmart-page-v2.html` (com pixel de clique no checkout)
+### 14. Logar em club.hotmart.com (welcome sequence)
+- **Onde:** https://club.hotmart.com/oauth/login?productId=8248938
+- **O que fazer:** logar no Club (domínio separado — a sessão do app.hotmart NÃO cobre) e configurar os 3 e-mails da welcome sequence (`vendas/welcome-sequence.md`): imediato (boas-vindas + 3 passos), 48h (3 dicas), 7 dias (bônus + upgrade Pro).
+- **Feito quando:** automação com 3 e-mails visível em Área de membros > Automação.
+
+### 15. Chrome real para webhook oficial
+- **Onde:** Chrome do usuário → https://app.hotmart.com/webhooks (ou Produto > Ferramentas > Webhooks).
+- **O que fazer:** criar webhook POST → `https://stuck-beats-interstate-vacuum.trycloudflare.com/hotmart/webhook`, eventos PURCHASE_APPROVED + PURCHASE_COMPLETE. (O browser embutido do Orca não renderiza essa seção do SPA; o Chrome externo está em tier 'read' para o computer-use.)
+- **Feito quando:** webhook ativo no Hotmart (o server Flask já está rodando e testado — venda simulada registrada).
+
