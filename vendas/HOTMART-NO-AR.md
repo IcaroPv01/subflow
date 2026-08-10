@@ -67,3 +67,27 @@ vendas/
 
 ### Vendas
 - **0 reais** (webhook status confirmado: 2 vendas simuladas de teste, sales_total=9.99)
+
+---
+
+## Canais: publicados vs pendentes (2026-08-10 ~02:00)
+
+### ✅ Publicados / no ar
+1. **YouTube demo** — https://www.youtube.com/watch?v=8wywC_Evx9E
+2. **Página customizada** — icarovenzon352.hotmart.host/subflow-legendas...
+3. **Checkout** — pay.hotmart.com/E107014071J (Pix, Cartão, PayPal, Mercado Pago, cupom SUBFLOW15)
+4. **AI Tool Directory** — submetido (aguardando review)
+5. **awesome-video PR #114** — aberto (Subtitle & Caption Tools)
+6. **awesome-ai-tools PR #1945** — aberto (Developer tools)
+7. **GitHub Discussion #1** — links checkout/cupom/página
+8. **PR #26 (Awesome-Whisper-Apps)** — comentário com checkout
+9. **README** — links checkout/cupom/página
+
+### ⛔ Bloqueados (aguardando login do dono)
+- Show HN (IP penalizado), Reddit (sem sessão), Dev.to, Hashnode, BetaList, Product Hunt, HF Space, Discord, IndieHackers (Cloudflare)
+- Webhook oficial Hotmart (SPA não renderiza no Orca — Chrome real)
+- Welcome sequence Club (login separado)
+
+### ⛔ Bloqueados por restrição/inexistência
+- awesome-whisper (contribuidores anteriores), awesome-claude-code (permissão), awesome-selfhosted (~200 stars), awesome-chatgpt (não encaixa), 7 repos inexistentes
+- Diretórios: 17 da lista v1 bloqueados (login/pago/404) + 7 da v2 (pago/invite/404)
