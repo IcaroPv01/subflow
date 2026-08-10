@@ -132,3 +132,12 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [ ] **Dev.to**: exige login (sem conta tecnica logada) — pular até o dono logar.
 - [ ] **Hashnode**: exige login (callbackUrl=%2Fdrafts) — pular até o dono logar.
 - [ ] **BetaList**: exige login (betalist.com/sign_in) — pular até o dono logar.
+
+### 2026-08-10 ~21:40 — HOTMART: PÁGINA DE VENDAS PUBLICADA (foco total do dono)
+- [x] **Página customizada PUBLICADA** via editor AI do Hotmart Pages (janela editor.pages.hotmart.com):
+  - URL: https://icarovenzon352.hotmart.host/subflow-legendas-profissionais-de-qualquer-video-100-local-f419da64-0079-4a97-9c03-33f796bb241c
+  - Seções adicionadas via prompts AI: Hero (headline + CTA verde "Comprar R$ 55,86"), Benefícios (6 cards: Whisper local, tradução lotes, QC Netflix, anti-alucinação, 100% privado, 2x rápido), Vídeo YouTube embed (8wywC_Evx9E), Pipeline, Comparativo (SubFlow vs Subtitle Edit vs Whisper API), Garantia 7 dias, FAQ, CTA final "Comprar SubFlow Agora".
+  - Screenshots: vendas/demo/_hotmart-editor-final.png + temp do preview.
+- [x] **Checkout confirmado no ar**: pay.hotmart.com/E107014071J (R$ 55,86, cartão+PayPal).
+- [x] **0 vendas** confirmado em Minhas vendas.
+- [ ] **PRÓXIMO**: configurar webhook de vendas (tarefa 3), order bumps/upsells (4), welcome sequence (6), cupom SUBFLOW15 (7), afiliados (8).
