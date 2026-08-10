@@ -193,3 +193,13 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **hnmail.io**: newsletter de resumo do HN, NAO aceita submit — sem utilidade para publicar.
 - [x] **HN API**: read-only (sem endpoint de submit) — confirmado.
 - [ ] **Acao do dono**: seguir GUIA-LOGIN-DONO.md (15 min) para destravar todos os canais; avisar a instancia apos cada login.
+
+### 2026-08-10 ~02:00 — PRs em awesome-lists (via gh CLI)
+- [x] **awesome-video** (krzemienski) → **PR #114 ABERTO** (Subtitle & Caption Tools)
+- [x] **awesome-ai-tools** (mahseema) → **PR #1945 ABERTO** (Developer tools, formato #opensource)
+- [x] **awesome-whisper** (sindresorhus) → ⛔ BLOQUEADO (repo restringe PRs a contribuidores anteriores — "Interactions restricted to prior contributors")
+- [x] **awesome-claude-code** (hesreallyhim) → ⛔ BLOQUEADO (CreatePullRequest sem permissao)
+- [x] **awesome-chatgpt** (sindresorhus) → ⛔ Nao encaixa (so ferramentas ChatGPT)
+- [x] **awesome-selfhosted** → ⛔ Criterio de ~200 stars (SubFlow tem 0)
+- [x] Repos inexistentes: mitchellkrogza/awesome-chatgpt, ikaijua/awesome-ai-tools, canada-ca/awesome-podcast-tools, mbiesiad/awesome-translation, openbestof/awesome-open-source-ai, modelcontextprotocol/awesome-mcp (404)
+- [x] **awesome-subtitles**: nao existe repo oficial (search vazio)
