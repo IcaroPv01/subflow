@@ -156,3 +156,7 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [ ] **Order Bump/Upsell**: PENDENTE — exige um PRODUTO COMPLEMENTAR para vender (só existe o SubFlow; o editor da oferta /offers/edit/14837554 não tem seção de bump sem outro produto). **Ação:** criar produto complementar (ex.: guia avançado) ou pular.
 - [ ] **Webhook**: SPA não renderiza a seção (Ferramentas > Webhooks) no browser embutido — configurar manualmente no Chrome real (URL do túnel cloudflared + PURCHASE_APPROVED/COMPLETE).
 - [ ] **Welcome sequence** (Área de membros): não explorada — pular para próxima rodada (foco foi checkout+cupom).
+
+### 2026-08-10 ~22:45 — HOTMART: WELCOME SEQUENCE BLOQUEADA (login Club separado)
+- [ ] **Welcome sequence (3 emails)**: BLOQUEADO — a automação fica no Hotmart Club (club.hotmart.com), que exige LOGIN PRÓPRIO (OAuth com productId=8248938). A sessão do app.hotmart não cobre. **Acao do dono:** logar em club.hotmart.com (aba do navegador) e depois configurar os 3 emails de vendas/welcome-sequence.md (imediato + 48h + 7dias).
+- [x] Conteudo dos 3 emails pronto em vendas/welcome-sequence.md.
