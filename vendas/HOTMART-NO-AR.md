@@ -108,3 +108,38 @@ vendas/
 - ⛔ **DevHunt**: precisa GitHub logado no browser (OAuth redirecionou para login) — para quando dono logar
 - ⛔ **LaunchBoosts / Hashnode / HF**: idem GitHub — para quando dono logar
 - ✅ **Cadastros prontos para colar**: peerlist-cadastro.md, devhunt-cadastro.md (quando logar)
+
+---
+
+## ESTADO FINAL (2026-08-10 ~03:30)
+
+### ✅ Publicados / no ar
+1. **Hotmart checkout** — pay.hotmart.com/E107014071J (Pix, Cartão, PayPal, Mercado Pago, cupom SUBFLOW15=15%)
+2. **Página customizada** — icarovenzon352.hotmart.host/subflow-legendas... (Hero, vídeo, benefícios, pipeline, comparativo, garantia, FAQ)
+3. **YouTube demo** — https://www.youtube.com/watch?v=8wywC_Evx9E (90s, público)
+4. **Guia PDF** (vendas/isca/...) — checkout + cupom no fim
+5. **PR #26** (Awesome-Whisper-Apps) — comentário com checkout
+6. **PR #114** (awesome-video) — Subtitle & Caption Tools
+7. **PR #1945** (awesome-ai-tools) — Developer tools
+8. **AI Tool Directory** — submetido (aguardando review)
+9. **Discussion #1 + README** — links checkout/cupom/página/vídeo
+10. **8 tópicos no repo** (whisper, subtitles, transcription, cli, local-first, video, ai, opensource)
+
+### ⏸️ Pendentes (login do dono)
+- Reddit posts (5 subs + r/selfhosted + r/TranslationStudies + r/AIDeveloperNews)
+- Dev.to / Hashnode / BetaList / Product Hunt / HF Space / Discord
+- Show HN (IP penalizado)
+- Club Hotmart welcome sequence (login separado)
+- Webhook oficial Chrome (SPA não renderiza no Orca)
+- Peerlist (só Google OAuth) / DevHunt / LaunchBoosts / Hashnode / HF (precisam GitHub logado no browser)
+- RepoRanker / TinyLaunch / SubmitALLAI (login ou CAPTCHA humano)
+
+### ⛔ Bloqueados definitivamente
+- 18+ diretórios testados (lista v1-v5 em canais-extras*.md): login, pago ($99/$247/$497), 404, domínio morto, invite code
+- IP do HN penalizado (automação)
+- awesome-whisper (sindresorhus) restrito a contribuidores anteriores
+- awesome-claude-code / awesome-python / awesome-vibe-coding / awesome-ai-agents-2026 — não encaixa ou restrito
+- GitHub NÃO logado no browser (OAuth não completa)
+
+### 💰 Vendas
+- **0 reais** — monitorando 24h via loop (30min/check) + webhook cloudflared (server Flask :5050)
