@@ -38,3 +38,13 @@
 ## Resumo em uma frase
 
 > SubFlow é o **único pipeline open-source que une Whisper local + QC estilo Netflix + detecção de alucinação + tradução em batches**, automatizando 95% do trabalho braçal de legendagem profissional.
+
+---
+
+## 🛒 Comprar SubFlow
+
+- **Checkout:** https://pay.hotmart.com/E107014071J — R$ 55,86 (~US$ 9,99)
+- **Cupom:** `SUBFLOW15` = **15% off**
+- **Página do produto (PT-BR):** https://icarovenzon352.hotmart.host/subflow-legendas-profissionais-de-qualquer-video-100-local-f419da64-0079-4a97-9c03-33f796bb241c
+- **Demo (90s):** https://www.youtube.com/watch?v=8wywC_Evx9E
+- Garantia incondicional de **7 dias**.

@@ -240,7 +240,8 @@ Se você quer **automatizar isso em escala** (vários filmes por semana, ou ofer
 - CLI + skill
 - Uso pessoal
 
-🔗 **https://pay.hotmart.com/E107014071J**
+🔗 **https://pay.hotmart.com/E107014071J** — use o cupom **`SUBFLOW15`** e ganhe **15% de desconto**!
+🛒 **Página do produto:** https://icarovenzon352.hotmart.host/subflow-legendas-profissionais-de-qualquer-video-100-local-f419da64-0079-4a97-9c03-33f796bb241c
 
 ---
 

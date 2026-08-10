@@ -1,0 +1,16 @@
+Subtitle a whole film in under 8 hours — fully local, free, no API cost.
+
+SubFlow is a 100% local subtitle pipeline: transcribe with Whisper, translate in batches, clean, QC (Netflix-style: max 42 chars/line, CPS limits, no overlaps) and language-check for ASR hallucinations.
+
+Pipeline:
+- subflow run video --src-lang fr --tgt-lang pt
+- subflow clean + qc (automatic fixes)
+- subflow langcheck (catches Whisper hallucination)
+
+Real case: a 104-min documentary (Med Hondo, 1977) subtitled in 7h50 — half the time of manual work.
+
+Open source (MIT): https://github.com/IcaroPv01/subflow
+Free PT-BR guide (9 sections): https://raw.githubusercontent.com/IcaroPv01/subflow/main/vendas/isca/guia-legendagem-profissional-pt-br.pdf
+Support the project (US$ 9.99): https://pay.hotmart.com/E107014071J
+
+#whisper #subtitles #transcription #cli #opensource #local #ptbr
