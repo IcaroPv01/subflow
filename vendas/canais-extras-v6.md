@@ -72,3 +72,20 @@ Nome: SubFlow · URL: github.com/IcaroPv01/subflow · Tagline: 100% local Whispe
 - JustFree.io (testar no Chrome real)
 - Fazier (testar /launches)
 - 8 diretórios com backlink recíproco (Tool Pilot, Foundr, Wavel, Based Tools, Buzzmatic, Look AI, AI Toolz Dir, AI Tool Trek) — rápidos, SEO
+
+---
+
+## Resultados backlink dirs (2026-08-10 ~04:30)
+
+| Diretório | HTTP | Status | Detalhe |
+|---|---|---|---|
+| **Tool Pilot** | 200 | ⚠️ Form 95% preenchido | Jotform: 8 campos + overview 148 palavras + freemium + categorias + features + twitter URL — so falta o dropdown customizado "Type of tool" (hidden q18 nao registra via JS). Resolver manualmente no Chrome real |
+| **AI Toolz Dir** | 200 | ⚠️ Form preenchido, submit incompleto | 6 campos preenchidos + "Get listed for free" (backlink DR63 dofollow) — mas o modal React de categoria/submit nao completa via JS (clicou e navegou para listagem) |
+| **Foundr** | 200 | 🔍 Pagina de submit mostra so email | Testar no Chrome real |
+| **AI Tool Trek** | 200 | ⛔ SPA vazio no browser embutido | "Envie Sua Ferramenta" mas sem form renderizado |
+| **Wavel / Based Tools / Buzzmatic / Look AI** | 000 | ⛔ Mortos | HTTP 000 |
+
+## Resumo acumulado de diretorios (v1-v6)
+- **Publicados**: AI Tool Directory ✅ (review)
+- **Quase prontos (acao manual 1-2 min)**: Tool Pilot (dropdown q18), AI Toolz Dir (modal categoria), SubmitALLAI (captcha)
+- **Bloqueados**: ~30 (login/pago/404/morto/invite)
