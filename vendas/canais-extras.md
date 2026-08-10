@@ -61,8 +61,8 @@ Checkout: https://pay.hotmart.com/E107014071J (coupon SUBFLOW15 = 15% off)
 | # | Diretório | Status | Nota |
 |---|---|---|---|
 | 1 | AI Tool Directory | ✅ **SUBMETIDO** (aguardando review) | Formulário paperform; nome, URL, descrições, tags, pricing Free, ad-space NO; "Tool Submission Successful" |
-| 2 | Toolify.ai | ⛔ Pago | Listing exige "Pay $99" (formulário nome+URL + radio, mas submit só pago) |
-| 3 | TopAI.tools | ⏳ pendente | |
+| 2 | Toolify.ai | ⛔ Pago | Listing exige "Pay $99"; formulário nome+URL sem submit grátis |
+| 3 | TopAI.tools | ⛔ Login necessário | Submit requer conta (SIGN IN); planos pagos $47/$229 |
 | 4 | Peerlist | ⏳ pendente | |
 | 5 | AiToolHunt | ⏳ pendente | |
 | 6 | AI Scout | ⏳ pendente | |
