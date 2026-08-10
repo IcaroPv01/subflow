@@ -78,3 +78,19 @@ Checkout: https://pay.hotmart.com/E107014071J (coupon SUBFLOW15 = 15% off)
 | 16 | Easywithai.com | ⛔ Erro | página com erro interno |
 | 17 | All Things AI | ⛔ Vazio | página sem conteúdo/submit |
 | 18 | DevHunt | ⛔ Login necessário | Submit requer /login |
+
+---
+
+## Atualização (2026-08-10, rodada v2)
+
+- **AI Tool Directory** = ✅ **PUBLICADO** (aguardando review editorial, notificação por email)
+- **17 originais** = ⛔ bloqueados (login/pago/fora do ar — detalhes acima)
+- **Novos diretórios ATIVOS** (HTTP 200 testados): ver `vendas/canais-extras-v2.md`
+  - **ToolDirectory.ai** = ⛔ reque **invite code** (form com name/URL/plan preenchido, submit bloqueado)
+  - **AIXploria** = 🔍 submit "Submit an AI" — testar
+  - **Futurepedia** = 🔍 form HubSpot — testar
+  - **LaunchBoosts** = ⛔ OAuth (GitHub OK quando dono logar)
+  - **AI Tool Board / Launching Next / StartupBase** = 🔍 testar
+- **Preparados para GitHub login:** `vendas/peerlist-cadastro.md` + `vendas/devhunt-cadastro.md`
+- **Guia padrão:** `vendas/COMO-CADASTRAR-SUBFLOW.md`
+- **HackerNews API**: não há endpoint público de submit (API é read-only) — submit só via web com sessão; HN segue com rate limit.
