@@ -210,3 +210,12 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **canais-extras-v3.md**: criado (RepoRanker, GitHub Explore/Trending, SourceForge, GitLab mirror, LibHunt) + acoes derivadas.
 - [x] **HOTMART-NO-AR.md**: seção "Canais: publicados vs pendentes" (9 publicados, bloqueados por login, bloqueados por restricao).
 - [x] Vendas: 0 reais (webhook confirmado, 2 simuladas de teste).
+
+### 2026-08-10 ~02:45 — Rodada awesome-lists 2 + bloqueios
+- [x] **awesome-python** (vinta): ⛔ Muito seletivo (so libs com milhares de stars — moviepy, librosa, pydub). SubFlow (0 stars) nao passa na curadoria — pular (evitar spam).
+- [x] **awesome-vibe-coding** (filipecalegario, 5.1k): ⛔ Secao "Command Line Tools" e so de CODING AGENTS (claude-code, aider, goose, openhands). SubFlow e pipeline de legendas (skill), nao coding agent — nao encaixa.
+- [x] **awesome-mcp-servers** (punkpeye + appcypher): ⛔ SubFlow nao e MCP server — nao se aplica.
+- [x] **awesome-llm-tools / awesome-copilot / awesome-MCP-zh**: repos nao existem (404).
+- [x] **Peerlist**: ⛔ So oferece Google OAuth (nao GitHub) na pagina atual — sem conta Google tecnica, pular.
+- [x] **DevHunt**: ⛔ OAuth GitHub redirecionou para github.com/login — o GitHub NAO esta realmente logado no browser (deteccao anterior foi falsa positiva). Cadastro fica para quando dono logar GitHub.
+- [x] **Reddit (tarefa 3)**: ⛔ Sem login (tela de login) — posts nos 5 subs ficam para quando dono logar conta tecnica.
