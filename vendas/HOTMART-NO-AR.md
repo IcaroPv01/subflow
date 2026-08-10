@@ -168,3 +168,12 @@ vendas/
 ## Canal novo quase-pronto (2026-08-10, v7)
 - ⚠️ **Dofollow.Tools** — wizard 2 etapas preenchido (todos os campos + categorias Video/AI + Web + Freemium) — falta upload do LOGO (30s manual) + Submit. Backlink dofollow.
 - 🔍 **Spiff.store / DataLook.io / BestOfWeb** — ativos, forms a testar.
+
+---
+
+## Testes rodada final (2026-08-10 ~05:30)
+- ⛔ **Spiff.store** — form não abre (2 meses espera + no-follow)
+- ⛔ **DataLook.io** — só newsletter (sem submit)
+- ⛔ **BestOfWeb** — domínio à venda (morto)
+- ⚠️ **Dofollow.Tools** — quase-pronto (upload LOGO pendente) → CHECKLIST-4-1MIN.md
+- 📋 **CHECKLIST-4-1MIN.md** — 4 quase-prontos (Tool Pilot, AI Toolz Dir, SubmitALLAI, Dofollow)

@@ -33,3 +33,18 @@
 - [Medium — 7 canais + 100 diretórios](https://medium.com/@karamanbk/how-to-launch-your-startup-in-2026-the-7-best-channels-plus-100-directories-to-submit-to-2923992e0eab)
 - [Discourse](https://www.discourse.org)
 - [Reddit — tool que submete em 100+ diretórios](https://www.reddit.com/r/saasbuild/comments/1r79mv7/i_made_a_free_ai_tool_that_submit_you_to_100)
+
+---
+
+## Resultados testes (2026-08-10 ~05:30)
+
+| Nome | HTTP | Form | Status |
+|---|---|---|---|
+| **Spiff.store** | 200 | ❌ Form não abre | "Free Listing $0" mas **2 meses de espera + no-follow**; botão Submit AI Tool sem form (exige login/sessão) |
+| **DataLook.io** | 200 | ❌ Só newsletter | "Submit a Tool" no menu não navega (SPA); só campo de email |
+| **BestOfWeb** | 200 | ❌ **Domínio à venda** | bestofweb.com = página GoDaddy "Obter esse domínio" (morto) |
+| **Dofollow.Tools** | 200 | ✅ Wizard 2 etapas | ⚠️ QUASE-PRONTO (falta upload LOGO, 30s manual) — adicionado ao CHECKLIST-4-1MIN.md |
+
+## CHECKLIST-4-1MIN.md
+- [x] Criado (Tool Pilot + AI Toolz Dir + SubmitALLAI + **Dofollow.Tools**) — vendas/CHECKLIST-4-1MIN.md
+- [x] CHECKLIST-3-1MIN.md removido (substituído)
