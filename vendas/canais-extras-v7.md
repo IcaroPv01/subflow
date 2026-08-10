@@ -48,3 +48,20 @@
 ## CHECKLIST-4-1MIN.md
 - [x] Criado (Tool Pilot + AI Toolz Dir + SubmitALLAI + **Dofollow.Tools**) — vendas/CHECKLIST-4-1MIN.md
 - [x] CHECKLIST-3-1MIN.md removido (substituído)
+
+---
+
+## Testes rodada final 2 (2026-08-10 ~06:00)
+
+| Canal | HTTP | Status |
+|---|---|---|
+| Product Hunt | 403 | ⛔ Anti-bot; Ship exige login (conta técnica — aguarda dono) |
+| BetaHunt | 000 | ⛔ Morto |
+| TinySeed | 200 | ⛔ Aceleradora, não diretório (sem submit de tool) |
+| beta-search.com | 403 | ⛔ Anti-bot |
+| lobste.rs/invitations | 000 | ⛔ Sem convite |
+| old.reddit r/SideProject | 403 | ⛔ Anti-bot sem sessão |
+
+## Novos candidatos (pesquisa)
+- **Uneed** (uneeed.com) — "launches calmos e duradouros para produtos indie", alternativa ao PH — 🔍 testar
+- **LaunchList** (getlaunchlist.com) — mapa de 99 lugares grátis para promover — 🔍 referência

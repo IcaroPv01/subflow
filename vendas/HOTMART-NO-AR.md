@@ -177,3 +177,11 @@ vendas/
 - ⛔ **BestOfWeb** — domínio à venda (morto)
 - ⚠️ **Dofollow.Tools** — quase-pronto (upload LOGO pendente) → CHECKLIST-4-1MIN.md
 - 📋 **CHECKLIST-4-1MIN.md** — 4 quase-prontos (Tool Pilot, AI Toolz Dir, SubmitALLAI, Dofollow)
+
+---
+
+## Rodada final 2 (2026-08-10 ~06:00)
+- ⛔ 7 canais testados sem login: PH (403), BetaHunt (morto), TinySeed (aceleradora), beta-search (403), Lobsters (sem convite), Reddit (403)
+- 🔍 **Uneed** — alternativa indie ao PH (testar)
+- 📋 CHECKLIST-4-1MIN.md: 4 quase-prontos (Tool Pilot, AI Toolz Dir, SubmitALLAI, Dofollow)
+- 💰 Vendas: 0 reais (webhook confirmado)
