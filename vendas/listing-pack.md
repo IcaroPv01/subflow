@@ -185,3 +185,11 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - Loop de monitoramento: monitor_loop.sh ativo (24h, 30min/check)
 - Webhook server + tunel: PRONTOS e TESTADOS (sales_total 9.99 teste)
 - Vendas: 0 reais
+
+### 2026-08-10 ~01:30 — Rodada GUIA-LOGIN + testes finais
+- [x] **vendas/GUIA-LOGIN-DONO.md**: 11 logins priorizados (HN, GitHub, Reddit, Dev.to, HF, Hashnode, BetaList, PH, Club, Chrome real, IndieHackers) com URL, tempo, post a disparar, texto pronto e status.
+- [x] **Show HN**: AINDA BLOQUEADO ("Sorry.") — IP do Orca penalizado por automacao. Submit so manual (dono loga no navegador real) ou esperar horas/dias.
+- [x] **hackernest.net**: fora do ar (000).
+- [x] **hnmail.io**: newsletter de resumo do HN, NAO aceita submit — sem utilidade para publicar.
+- [x] **HN API**: read-only (sem endpoint de submit) — confirmado.
+- [ ] **Acao do dono**: seguir GUIA-LOGIN-DONO.md (15 min) para destravar todos os canais; avisar a instancia apos cada login.
