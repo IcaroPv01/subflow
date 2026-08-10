@@ -86,7 +86,8 @@ real case study (104-min film in 7h50). Free PDF (~20 KB):
 ## Resources
 
 - **Video demo (YouTube):** [Subtitle a whole film in under 8 hours (Whisper, local, free)](https://www.youtube.com/watch?v=8wywC_Evx9E)
-- **Buy on Hotmart (US$ 9.99):** https://pay.hotmart.com/E107014071J
+- **Sales page (PT-BR):** [SubFlow — Legendas profissionais de qualquer vídeo, 100% local](https://icarovenzon352.hotmart.host/subflow-legendas-profissionais-de-qualquer-video-100-local-f419da64-0079-4a97-9c03-33f796bb241c)
+- **Buy on Hotmart (US$ 9.99):** https://pay.hotmart.com/E107014071J — use coupon **SUBFLOW15** for 15% off
 
 ## License
 
