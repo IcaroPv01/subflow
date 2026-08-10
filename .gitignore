@@ -5,3 +5,5 @@ dist/
 build/
 .venv/
 _val/
+vendas/webhook/*.log
+tools/
