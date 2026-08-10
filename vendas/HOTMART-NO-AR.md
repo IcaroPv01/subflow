@@ -42,3 +42,28 @@ vendas/
 ├── isca/guia-legendagem-profissional-pt-br.md
 └── webhook/                  (server + túnel + monitor loop)
 ```
+---
+
+## Estado atual (2026-08-10, rodada de tráfego)
+
+### Canais com link do checkout (ativos)
+- ✅ **README** (repo) — checkout + cupom + página customizada
+- ✅ **Discussion #1** (GitHub) — checkout + cupom + página + vídeo + PDF
+- ✅ **PR #26** (Awesome-Whisper-Apps) — checkout + cupom + demo
+- ✅ **Vídeo YouTube** (descrição) — repo + PDF + checkout
+- ✅ **Guia PDF** (fim do guia) — checkout + cupom SUBFLOW15
+- ✅ **comparativo.md** — seção "Comprar SubFlow" (checkout + cupom + demo)
+
+### Canais pendentes (ação do dono — login)
+- ⏸️ Show HN — rate limit do HN ativo (retry falhou: "Sorry.")
+- ⏸️ Dev.to / Hashnode / BetaList / PH / HF Space — sem conta técnica logada
+- ⏸️ Reddit — posts r/whisper e r/SideProject removidos pelos filtros; sem sessão
+- ⏸️ Discord — sem login
+
+### Canais extras (pesquisa — `vendas/canais-extras.md`)
+- 🔍 18 diretórios AI (Toolify, AI Tool Directory, TopAI, Peerlist, AiToolHunt, DevHunt...)
+- 🔍 6 comunidades Whisper/legendas (OpenAI Dev Community, VideoHelp, Cursor Forum...)
+- Todos com texto padrão de submissão pronto (EN) no arquivo.
+
+### Vendas
+- **0 reais** (webhook status confirmado: 2 vendas simuladas de teste, sales_total=9.99)
