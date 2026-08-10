@@ -54,3 +54,16 @@ Checkout: https://pay.hotmart.com/E107014071J (coupon SUBFLOW15 = 15% off)
 - Fastio: https://fast.io/resources/best-ai-tool-directories-2026
 - RevAvenues: https://www.revavenues.ai/10-best-ai-tool-directories-for-backlinks-in-2026
 - Medium: https://medium.com/@karamanbk/how-to-launch-your-startup-in-2026-the-7-best-channels-plus-100-directories-to-submit-to-2923992e0eab
+---
+
+## Resultados cadastros rodada 3 (2026-08-10)
+
+| Diretório | Status | Detalhe |
+|---|---|---|
+| **AIXploria** | ⛔ Form não acessível | /add-ai/ e /submit-ai-tool-or-feature-company/ são só marketing (sem form no DOM; provável fluxo JS não renderizado) |
+| **Futurepedia** | ⛔ Só pago | Basic $247 (sold out) / Verified $497 — sem submit grátis |
+| **AI Tool Board** | ⛔ Requer upload de imagem | Form de 10 campos PREENCHIDOS (name, desc, url, price, tags, free listing) — mas "Tool Image *" exige upload e o file chooser não abre no browser embutido |
+| **Launching Next** | 🔍 testar | |
+| **StartupBase** | 🔍 testar | |
+| **AI Parabellum** | 🔍 testar | |
+| **RevAvenues** | 🔍 testar | |
