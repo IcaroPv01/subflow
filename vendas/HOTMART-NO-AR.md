@@ -91,3 +91,20 @@ vendas/
 ### ⛔ Bloqueados por restrição/inexistência
 - awesome-whisper (contribuidores anteriores), awesome-claude-code (permissão), awesome-selfhosted (~200 stars), awesome-chatgpt (não encaixa), 7 repos inexistentes
 - Diretórios: 17 da lista v1 bloqueados (login/pago/404) + 7 da v2 (pago/invite/404)
+
+---
+
+## PRs abertos (atualizado 2026-08-10 ~02:45)
+
+| PR | Repo | Status |
+|---|---|---|
+| [PR #26](https://github.com/danielrosehill/Awesome-Whisper-Apps/pull/26) | Awesome-Whisper-Apps | Aberto (comentario com checkout) |
+| [PR #114](https://github.com/krzemienski/awesome-video/pull/114) | awesome-video | Aberto (Subtitle & Caption Tools) |
+| [PR #1945](https://github.com/mahseema/awesome-ai-tools/pull/1945) | awesome-ai-tools | Aberto (Developer tools) |
+| AI Tool Directory | — | Submetido (aguardando review) |
+
+## Cadastros GitHub (tarefa 2)
+- ⛔ **Peerlist**: so Google OAuth (nao GitHub) — pular
+- ⛔ **DevHunt**: precisa GitHub logado no browser (OAuth redirecionou para login) — para quando dono logar
+- ⛔ **LaunchBoosts / Hashnode / HF**: idem GitHub — para quando dono logar
+- ✅ **Cadastros prontos para colar**: peerlist-cadastro.md, devhunt-cadastro.md (quando logar)
