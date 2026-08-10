@@ -168,3 +168,20 @@ O browser embutido do Orca (perfil `default`, partition `persist:orca-browser`) 
 - [x] **Tarefa 4 (webhook status)**: server + tunel ATIVOS — 1 clique, 1 venda de teste (sales_total=0).
 - [x] **Tarefa 5 (checkout publico)**: pay.hotmart.com/E107014071J verificado em ABA ANONIMA — titulo, autor, R$ 55,86, campo cupom (SUBFLOW15), Cartao+PayPal, Comprar agora. TUDO OK.
 - [x] **Tarefa 6 (Discussion #1)**: link da pagina customizada adicionado (discussioncomment-17957533).
+
+### 2026-08-10 ~23:05 — HOTMART ESTADO FINAL (tarefas 1-7 da rodada)
+- [x] **Tarefa 1 (checkout anonimo)**: pay.hotmart.com/E107014071J e a pagina customizada (icarovenzon352.hotmart.host/...) verificados em aba anonima — todas as secoes presentes (Hero, Video YouTube, 6 beneficios, Pipeline, Comparativo vs Subtitle Edit/Descript/Whisper API, Garantia 7 dias, FAQ). Screenshot capturado (janela do Chrome externo pegou o X — nao usado; verificacao via DOM confirmou).
+- [x] **Tarefa 2 (webhook test)**: venda simulada POST → status: sales_count=2, sales_total=9.99, last_sale t@t.com USD 9.99. WEBHOOK FUNCIONANDO.
+- [ ] **Tarefa 3 (webhook oficial)**: BLOQUEADO — Chrome externo tier 'read' (sem clique/typing) + X pessoal aberto (proibido). Acao do dono: Chrome real → app.hotmart.com/webhooks → URL do tunel.
+- [ ] **Tarefa 4 (API)**: api.hotmart.com/v1/products → 302 (precisa OAuth) — pulado.
+- [x] **Tarefa 5**: este log.
+- [ ] **Tarefa 6**: CHECKLIST-DONO atualizado (proxima edicao).
+- [ ] **Tarefa 7**: README com link da pagina + cupom (proxima edicao).
+
+## ESTADO FINAL HOTMART (consolidado)
+- Pagina customizada PUBLICADA: https://icarovenzon352.hotmart.host/subflow-legendas-profissionais-de-qualquer-video-100-local-f419da64-0079-4a97-9c03-33f796bb241c
+- Checkout configurado: Pix, Cartao, PayPal, Mercado Pago, cupom ativo, hibrido, parcelado em destaque
+- Cupom SUBFLOW15 = 15% ATIVO
+- Loop de monitoramento: monitor_loop.sh ativo (24h, 30min/check)
+- Webhook server + tunel: PRONTOS e TESTADOS (sales_total 9.99 teste)
+- Vendas: 0 reais
